@@ -1,0 +1,120 @@
+/*
+company colors: 
+
+blue:
+#349dee
+rgb(52, 158, 239)
+
+grey:
+#515151
+rgb(81, 81, 81)
+
+white:
+#ffffff
+rgb(255, 255, 255)
+*/
+
+/*generic*/
+body, html {
+	background-color: #349dee;
+	color: #515151;
+}
+img, button {
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+::-moz-selection {
+	background: hsl(0, 0%, 90%) !important;
+}
+::selection {
+	background: hsl(0, 0%, 90%) !important;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*big columns*/
+.big-col {
+	padding: 10px;
+}
+.big-col-inner {
+	color: #fff;
+	border: 4px solid #fff;
+	margin: 20px;
+	padding: 20px;
+	cursor: pointer;
+}
+.big-col-inner:hover:not(.no-hover) {
+	background-color: #fff;
+	border-color: #349dee;
+	color: #349dee;
+}
+.btn-primary, .bg-primary {
+	background-color: #349dee !important;
+}
+
+/*headline*/
+#headline-div {
+	background: #fff url('img/undraw_security_on.svg') no-repeat fixed center;
+	height: 500px;
+	text-align: center;
+}
+
+/*nav*/
+.navbar {
+	background-color: #fff;
+}
+.nav-link {
+	color: #515151 !important;
+}
+.nav-link:hover {
+	color: #349dee !important;	
+}
+
+.navbar input, .navbar .btn-primary {
+	border-radius: 0px;
+}
+
+/*footer*/
+.page-footer {
+	background-color: #fff;
+}
+.page-footer a {
+	color: #349dee;
+}
+
+/*icons*/
+.big-col-inner {
+	transition: background-color 0.2s linear;
+}
+.fa-cloud {
+	transition: 0.2s ease-in-out;
+}
+.big-col-inner:hover .fa-cloud {
+	transform: scale(1.25);
+}
+#lock-closed-icon, .extra-server-icon {
+	display: none;
+}
+
+/*media queries*/
+@media (max-width: 1200px) { /* bootstrap lg */
+
+}
+@media (max-width: 992px) { /* bootstrap md */
+	.big-col-inner {
+		margin: 5px;
+		padding: 5px;
+	}
+
+}
+@media (max-width: 768px) { /* bootstrap sm */
+
+}
+@media (max-width: 576px) { /* bootstrap xs */
+
+}
