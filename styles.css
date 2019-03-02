@@ -19,7 +19,8 @@ body, html {
 	background-color: #349dee;
 	color: #515151;
 }
-img, button {
+
+img, button, .navbar {
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
@@ -63,10 +64,16 @@ img, button {
 	height: 500px;
 	text-align: center;
 }
+#headline-div h1 {
+	font-weight: 800;
+	letter-spacing: 1px;
+	font-size: 300%;
+}
 
 /*nav*/
 .navbar {
 	background-color: #fff;
+	padding-top: 20px;
 }
 .nav-link {
 	color: #515151 !important;
@@ -101,14 +108,30 @@ img, button {
 	display: none;
 }
 
+input::placeholder {
+	color: #999 !important;
+}
+::-moz-placeholder {
+	opacity: 1;
+}
+
+.navbar-toggler:focus {
+	outline-color: #007bff;
+}
+
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */
-
+	#search {
+		width: 100px !important;
+	}
 }
 @media (max-width: 992px) { /* bootstrap md */
 	.big-col-inner {
 		margin: 5px;
 		padding: 5px;
+	}
+	#search {
+		width: 300px !important;
 	}
 
 }

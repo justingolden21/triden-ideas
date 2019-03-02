@@ -1,0 +1,8 @@
+body {
+	background: #349dee url('img/logo.svg') no-repeat fixed center;
+	background-size: 550px;
+}
+
+.big-col-inner {
+	background-color: rgba(52, 158, 239, 0.8); /*#349dee*/
+}

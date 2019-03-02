@@ -21,6 +21,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 <link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="shield-bg.css"> -->
 <script src="scripts.js"></script>
 
 </head>
@@ -69,7 +70,7 @@
 		<form class="form-inline ml-auto">
 			<div class="input-group">
 			
-				<input class="form-control" type="search" placeholder="Search for solutions..." aria-label="Search">
+				<input id="search" class="form-control" type="search" placeholder="Search our solutions..." aria-label="Search">
 				<div class="input-group-append">
 					<button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
 				</div>
@@ -77,15 +78,23 @@
 		</form>
 
 		<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#"><i class="fab fa-youtube fa-2x"></i></a>
-			</li>
+			<div class="row text-center">
+				<div class="col-4">
+					<li class="nav-item">
+						<a class="navbar-brand" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+					</li>
+				</div>
+				<div class="col-4">
+					<li class="nav-item">
+						<a class="navbar-brand" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+					</li>
+				</div>
+				<div class="col-4">
+					<li class="nav-item">
+						<a class="navbar-brand" href="#"><i class="fab fa-youtube fa-2x"></i></a>
+					</li>
+				</div>
+			</div>
 		</ul>
 
 	</div>
@@ -93,6 +102,7 @@
 
 <!-- <br><br> -->
 <div id="headline-div">
+	<br><br>
 	<br><br>
 	<br><br>
 	<h1>Where Security Protects Innovation</h1>
