@@ -112,6 +112,9 @@ img, button, .navbar {
 .big-col-inner:hover .fa-cloud {
 	transform: scale(1.25);
 }
+.btn:hover .fa-search, .btn:focus .fa-search {
+	transform: scale(1.25);	
+}
 #lock-closed-icon, .extra-server-icon {
 	display: none;
 }
