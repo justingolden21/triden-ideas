@@ -57,6 +57,9 @@ img, button, .navbar {
 .btn-primary, .bg-primary {
 	background-color: #349dee !important;
 }
+.text-primary {
+	color: #349dee !important;
+}
 
 /*headline*/
 #headline-div {
@@ -65,9 +68,11 @@ img, button, .navbar {
 	text-align: center;
 }
 #headline-div h1 {
-	font-weight: 800;
 	letter-spacing: 1px;
 	font-size: 300%;
+}
+#headline-div h1 b {
+	font-weight: 800;	
 }
 
 /*nav*/
