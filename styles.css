@@ -45,14 +45,15 @@ img, button, .navbar {
 .big-col-inner {
 	color: #fff;
 	border: 4px solid #fff;
+	/*box-shadow: 12px 12px 0px #515151;*/
 	margin: 20px;
 	padding: 20px;
-	cursor: pointer;
 }
 .big-col-inner:hover:not(.no-hover) {
 	background-color: #fff;
 	border-color: #349dee;
 	color: #349dee;
+	cursor: pointer;
 }
 .btn-primary, .bg-primary {
 	background-color: #349dee !important;
@@ -97,7 +98,9 @@ img, button, .navbar {
 }
 .page-footer a {
 	color: #349dee;
+	font-size: 150%;
 }
+
 
 /*icons*/
 .big-col-inner {
@@ -111,6 +114,10 @@ img, button, .navbar {
 }
 #lock-closed-icon, .extra-server-icon {
 	display: none;
+}
+
+.big-col-inner p {
+	font-size: 150%;
 }
 
 input::placeholder {
