@@ -190,6 +190,7 @@ input::placeholder {
 .slider-item p {
 	font-size: 125%;
 	padding-right: 30px;
+	padding-left: 30px;
 	text-align: left;
 }
 .slider-img {
@@ -241,7 +242,19 @@ input::placeholder {
 
 }
 @media (max-width: 768px) { /* bootstrap sm */
-
+/*	.slick-arrow {
+		display: inline !important;
+		padding: 50px;
+	}*/
+	#slider-cols {
+		display: none;
+	}
+	#headline-slogan {
+		margin-top: 75px;
+	}
+	#search {
+		width: 200px !important;
+	}
 }
 @media (max-width: 576px) { /* bootstrap xs */
 
