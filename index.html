@@ -20,25 +20,44 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+<!-- slick -->
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/> -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
 <link rel="stylesheet" href="styles.css">
 <!-- <link rel="stylesheet" href="shield-bg.css"> -->
+<!-- <link rel="stylesheet" href="video.css"> -->
 <script src="scripts.js"></script>
 
 </head>
 
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg" role="navigation">
-	<a class="navbar-brand" href="#"><img src="img/logo-banner-simple.png" width="200px"></a>
-	<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar fixed-top navbar-lg" role="navigation">
+<!-- <nav class="navbar fixed-top navbar-expand-lg" role="navigation"> -->
+	<a class="navbar-brand" href="#"><img src="img/logo-banner-white-simple.png" width="200px"></a>
+	<!-- <a class="navbar-brand" href="#"><img src="img/logo-banner-simple.png" width="200px"></a> -->
+
+	<form id="search-form" class="form-inline ml-auto">
+		<div class="input-group">
+		
+			<input id="search" class="form-control" type="search" autofocus="true" placeholder="Search our solutions..." aria-label="Search">
+			<div class="input-group-append">
+				<button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+			</div>
+		</div>
+	</form>
+
+	<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
 
 	<div class="collapse navbar-collapse" id="navbarContent">
 		<ul class="navbar-nav mr-auto">
-			<li class="nav-item active">
+<!-- 			<li class="nav-item active">
 				<a class="nav-link" href="#">Home</a>
-			</li>
+			</li> -->
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Services
@@ -67,17 +86,9 @@
 			</li>
 		</ul>
 
-		<form class="form-inline ml-auto">
-			<div class="input-group">
-			
-				<input id="search" class="form-control" type="search" autofocus="true" placeholder="Search our solutions..." aria-label="Search">
-				<div class="input-group-append">
-					<button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
-				</div>
-			</div>
-		</form>
+		<!-- note: search form used to be here -->
 
-		<ul class="navbar-nav ml-auto">
+		<!-- <ul class="navbar-nav ml-auto">
 			<div class="row text-center">
 				<div class="col-4">
 					<li class="nav-item">
@@ -95,62 +106,116 @@
 					</li>
 				</div>
 			</div>
-		</ul>
+		</ul> -->
 
 	</div>
 </nav>
 
+
+
+
 <!-- <br><br> -->
 <div id="headline-div">
+
+<!-- 	<video autoplay muted loop id="main-video">
+		<source src="img/hex-video.mp4" type="video/mp4">
+	</video> -->
+
+
 	<br><br>
 	<br><br>
-	<h1 class="text-primary">Triden Group</h1>	
+	<!-- <h1 class="text-primary">Triden Group</h1>	 -->
 	<br><br>
 	<h1><b>Where Security Protects Innovation</b></h1>
+	<br><br>
+
+
+	<div id="slider">
+		<div class="slider-item">
+			<div class="row">
+				<div class="col-sm-1">
+				</div>
+				<div class="col-sm-4">
+					<img class="slider-img mx-auto" src="img/cloud-1.jpg" width="400px">
+				</div>
+				<div class="col-sm-1">
+				</div>
+				<div class="col-sm-6">
+					<br>
+					<h3>Cloud</h3>
+					<p>Praesent eu mi eu nisi pulvinar pretium ac ut ante. Ut convallis eget nisi sit amet vestibulum. Cras sit amet nibh ac libero dignissim viverra a et purus. Aliquam lacinia ut lacus non consequat. Pellentesque id risus tortor. Maecenas iaculis nunc leo, condimentum pellentesque sapien varius quis. Proin nunc velit, euismod vitae nunc et, vulputate ultrices lectus. Pellentesque in arcu vitae arcu aliquet bibendum.</p>
+					<button class="btn learn-more-btn">Learn More</button>
+				</div>
+			</div>
+		</div>
+		<div class="slider-item">
+			<div class="row">
+				<div class="col-sm-1">
+				</div>
+				<div class="col-sm-4">
+					<img class="slider-img mx-auto" src="img/security-1.jpeg" width="400px">
+				</div>
+				<div class="col-sm-1">
+				</div>
+				<div class="col-sm-6">
+					<br>
+					<h3>Security</h3>
+					<p>Praesent eu mi eu nisi pulvinar pretium ac ut ante. Ut convallis eget nisi sit amet vestibulum. Cras sit amet nibh ac libero dignissim viverra a et purus. Aliquam lacinia ut lacus non consequat. Pellentesque id risus tortor. Maecenas iaculis nunc leo, condimentum pellentesque sapien varius quis. Proin nunc velit, euismod vitae nunc et, vulputate ultrices lectus. Pellentesque in arcu vitae arcu aliquet bibendum.</p>
+					<button class="btn learn-more-btn">Learn More</button>
+				</div>
+			</div>
+		</div>
+		<div class="slider-item">
+			<div class="row">
+				<div class="col-sm-1">
+				</div>
+				<div class="col-sm-4">
+					<img class="slider-img mx-auto" src="img/infra-1.jpg" width="400px">
+				</div>
+				<div class="col-sm-1">
+				</div>
+				<div class="col-sm-6">
+					<br>
+					<h3>Infrastructure</h3>
+					<p>Praesent eu mi eu nisi pulvinar pretium ac ut ante. Ut convallis eget nisi sit amet vestibulum. Cras sit amet nibh ac libero dignissim viverra a et purus. Aliquam lacinia ut lacus non consequat. Pellentesque id risus tortor. Maecenas iaculis nunc leo, condimentum pellentesque sapien varius quis. Proin nunc velit, euismod vitae nunc et, vulputate ultrices lectus. Pellentesque in arcu vitae arcu aliquet bibendum.</p>
+					<button class="btn learn-more-btn">Learn More</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="slider-cols" class="row text-center">
+		<div class="col-md-4 big-col">
+			<div id="col-cloud" class="big-col-inner">
+			<!-- <div id="col-cloud" class="big-col-inner" data-toggle="modal" data-target="#cloud-modal"> -->
+				<h1><i class="fas fa-cloud"></i><br>Cloud</h1>
+				<br>
+			</div>
+		</div>
+		<div class="col-md-4 big-col">
+			<div id="col-security" class="big-col-inner">
+				<h1><i id="lock-open-icon" class="fas fa-lock-open"></i><i id="lock-closed-icon" class="fas fa-lock"></i><br>Security</h1>
+				<br>
+			</div>
+		</div>
+		<div class="col-md-4 big-col">
+			<div id="col-infra" class="big-col-inner">
+				<h1>
+					<i class="fas fa-server extra-server-icon"></i>
+					<i class="fas fa-server"></i> 
+					<i class="fas fa-server extra-server-icon"></i>
+					<br>Infrastructure
+				</h1>
+				<br>
+			</div>
+		</div>
+	</div>
+
+
 </div>
 
-<!-- <div class="modal fade" id="cloud-modal">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title"><i class="fas fa-cloud"></i> Cloud</h4>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultricies diam. Maecenas vestibulum lorem non turpis vulputate ultrices. Phasellus non velit vitae ex molestie pulvinar id eget sapien. Praesent scelerisque, neque in dignissim porttitor, magna magna ultrices nunc, eget tempus ipsum felis vel lacus. Suspendisse ac vestibulum ipsum. Nullam tincidunt lectus at augue suscipit, a sagittis turpis condimentum. Donec in est eu lorem mollis consequat at ac purus.</p>
-
-				<p>Cras consequat lobortis dui non iaculis. Phasellus porta erat sed urna porta placerat. Praesent hendrerit suscipit volutpat. Sed viverra vitae justo in congue. Curabitur imperdiet sed leo non condimentum. Etiam eros tellus, ullamcorper nec pulvinar quis, mollis et est. In convallis mollis ex, sit amet vehicula est dictum ut.</p>
-			</div>
-		</div>
-	</div>
-</div> -->
-
-<div class="row text-center">
-	<div class="col-md-4 big-col">
-		<div id="col-cloud" class="big-col-inner">
-		<!-- <div id="col-cloud" class="big-col-inner" data-toggle="modal" data-target="#cloud-modal"> -->
-			<h1><i class="fas fa-cloud"></i><br>Cloud</h1>
-			<br>
-		</div>
-	</div>
-	<div class="col-md-4 big-col">
-		<div id="col-security" class="big-col-inner">
-			<h1><i id="lock-open-icon" class="fas fa-lock-open"></i><i id="lock-closed-icon" class="fas fa-lock"></i><br>Security</h1>
-			<br>
-		</div>
-	</div>
-	<div class="col-md-4 big-col">
-		<div id="col-infra" class="big-col-inner">
-			<h1>
-				<i class="fas fa-server extra-server-icon"></i>
-				<i class="fas fa-server"></i> 
-				<i class="fas fa-server extra-server-icon"></i>
-				<br>Infrastructure
-			</h1>
-			<br>
-		</div>
-	</div>
-
+<!-- <div class="row text-center">
 	<div class="col-12 big-col">
 		<div class="big-col-inner no-hover">
 			<h1><i class="fas fa-shield-alt fa-2x"></i><br><br>Welcome to Triden Group</h1>
@@ -168,18 +233,36 @@
 			</p>
 		</div>
 	</div>
+</div> -->
 
-</div>
+<!-- <div class="modal fade" id="cloud-modal">
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title"><i class="fas fa-cloud"></i> Cloud</h4>
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultricies diam. Maecenas vestibulum lorem non turpis vulputate ultrices. Phasellus non velit vitae ex molestie pulvinar id eget sapien. Praesent scelerisque, neque in dignissim porttitor, magna magna ultrices nunc, eget tempus ipsum felis vel lacus. Suspendisse ac vestibulum ipsum. Nullam tincidunt lectus at augue suscipit, a sagittis turpis condimentum. Donec in est eu lorem mollis consequat at ac purus.</p>
+
+				<p>Cras consequat lobortis dui non iaculis. Phasellus porta erat sed urna porta placerat. Praesent hendrerit suscipit volutpat. Sed viverra vitae justo in congue. Curabitur imperdiet sed leo non condimentum. Etiam eros tellus, ullamcorper nec pulvinar quis, mollis et est. In convallis mollis ex, sit amet vehicula est dictum ut.</p>
+			</div>
+		</div>
+	</div>
+</div> -->
+
+
 
 <footer class="page-footer">
 	<br>
 
 	<div class="row container-fluid text-center text-md-left">
 		<div class="col-md-6 ">
-			<img src="img/logo-banner.png" width="300px">
+			<!-- <img src="img/logo-banner.png" width="300px"> -->
+			<img src="img/logo-banner-white.png" width="200px">
 			<br><br>
 		</div>
-		<div class="col-md-3">
+		<div id="social-col" class="col-md-3">
 			<h4>SOCIAL</h4>
 			<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
 			&nbsp;
@@ -203,6 +286,12 @@
 	</div>
 	<br>
 </footer>
+
+
+<!-- <br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br> -->
 
 </body>
 </html>
