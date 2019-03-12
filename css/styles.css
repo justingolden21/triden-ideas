@@ -225,6 +225,10 @@ input::placeholder {
 	margin-right: 40px;
 }
 
+#headline-slogan {
+	font-size: 250% !important;
+}
+
 
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */
