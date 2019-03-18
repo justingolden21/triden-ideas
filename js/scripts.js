@@ -13,10 +13,12 @@ $(function() {
 
 	$('#col-infra').hover(function() {
 		$('.extra-server-icon').css('display', 'inline');
+		$('.fa-server').css('margin', '0px 10px');
 	});
 	$('#col-infra').mouseleave(function() {
 		if(! $(this).hasClass('active') ) {
 			$('.extra-server-icon').css('display', 'none');
+			$('.fa-server').css('margin', '0px 0px');
 		}
 	});
 
@@ -42,9 +44,11 @@ $(function() {
 		}
 		if(nextSlide==2) {
 			$('.extra-server-icon').css('display', 'inline');
+			$('.fa-server').css('margin', '0px 10px');
 		} else {
 			if(! $('#col-infra').is(':hover') ) {
 				$('.extra-server-icon').css('display', 'none');
+				$('.fa-server').css('margin', '0px 0px');
 			}
 		}
 		// console.log(nextSlide);

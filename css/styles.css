@@ -153,7 +153,10 @@ img, button, .navbar {
 
 /*icons*/
 .fa-cloud {
-	transition: 0.2s ease-in-out;
+	transition: 0.25s ease-in-out;
+}
+.fa-server {
+	transition: margin 0.5s;	
 }
 .big-col-inner:hover .fa-cloud, .big-col-inner.active .fa-cloud {
 	transform: scale(1.25);
