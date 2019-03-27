@@ -1,9 +1,0 @@
-/*https://www.w3schools.com/howto/howto_css_fullscreen_video.asp*/
-/*https://www.shutterstock.com/video/clip-33435829-blue-hexadecimal-big-data-digital-code-futuristic*/
-#main-video {
-	position: fixed;
-	right: 0;
-	bottom: 0;
-	min-width: 100%; 
-	min-height: 100%;
-}
