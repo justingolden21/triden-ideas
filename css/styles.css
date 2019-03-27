@@ -118,7 +118,10 @@ img, button, .navbar {
 .navbar {
 	/*background-color: #fff;*/
 	background-color: #292929;
-	padding-top: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .nav-link {
 	color: #fff !important;
@@ -129,6 +132,10 @@ img, button, .navbar {
 
 .navbar input, .navbar .btn-primary {
 	border-radius: 0px;
+}
+
+#menu-icon {
+	color: #fff;
 }
 
 /*footer*/
@@ -170,7 +177,7 @@ img, button, .navbar {
 }
 
 .big-col-inner p {
-	font-size: 150%;
+	font-size: 125%;
 }
 
 input::placeholder {

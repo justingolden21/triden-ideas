@@ -64,7 +64,22 @@ $(function() {
 		$('#slider').slick('goTo', 2);
 	});
 
+	$('.big-col-inner').click(function() {
+		$('html, body').animate({
+			scrollTop: $('#headline-div').offset().top
+		}, 500);
+	});
+
 	$('#col-cloud').addClass('active');
 	
+	$('#menu-btn').click(function() {
+		if($('#menu-icon').hasClass('fa-bars') ) {
+			$('#menu-icon').addClass('fa-times');
+			$('#menu-icon').removeClass('fa-bars');
+		} else {
+			$('#menu-icon').addClass('fa-bars');
+			$('#menu-icon').removeClass('fa-times');
+		}
+	});
 
 });
