@@ -66,7 +66,7 @@ $(function() {
 
 	$('.big-col-inner').click(function() {
 		$('html, body').animate({
-			scrollTop: $('#headline-div').offset().top
+			scrollTop: $('#headline-slogan').offset().top
 		}, 500);
 	});
 
