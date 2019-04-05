@@ -1,12 +1,10 @@
 before launch:
 
-social links, blog, and calender links must work (footer)
+blog, and calender links must work (footer)
 
 test contact page
 
 hook up support portal login to backend
-
-change autofocus from searchbar to other inouts for contact and support login
 
 replace lipsum in solutions page
 
@@ -46,8 +44,6 @@ later: make contract
 add 404
 
 add google analytics
-
-add links to socials in data folder
 
 add fb and twitter metadata to head.html
 https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started?ref=frontendchecklist

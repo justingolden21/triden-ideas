@@ -81,12 +81,12 @@ img, button, .navbar {
 }
 
 
-#social-col .fab {
+#social-col .fab, #social-col .fas {
 	transition: color 0.2s linear;
 	font-size: 150%;
 	color: #fff;
 }
-#social-col .fab:hover {
+#social-col .fab:hover, #social-col .fas:hover {
 	color: #349dee;
 }
 
