@@ -1,3 +1,10 @@
-# Ideas for Triden Website
 
-https://justingolden21.github.io/triden-ideas/
+<img src="assets/images/icon.svg" width="256px">
+
+Currently testing website at https://justingolden21.github.io/triden-ideas/
+
+# [TridenGroup.com](https://tridengroup.com) - Triden Group Website
+
+- Website by Justin Golden
+
+- &copy; Triden Group 2019

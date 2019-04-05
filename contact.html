@@ -1,0 +1,85 @@
+---
+layout: default-layout
+title: Contact Us
+active: Contact
+permalink: /contact/
+---
+
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/input-styles.css">
+<script src="{{ site.baseurl }}/assets/js/address-links.js"></script>
+
+<div id="main-section">
+<div class="row justify-content-between">
+	<div class="col-lg-5 col-md-6 center">
+		<h2 class="blue">Tell us about your goals.</h2>
+		<form>
+			<div class="row">
+				<div class="col-md-6">
+					<label for="first-name-input">FIRST NAME</label>
+					<br>
+					<input id="first-name-input" class="form-control" type="text">
+				</div>
+				<div class="col-md-6">
+					<label for="last-name-input">LAST NAME</label>
+					<br>
+					<input id="last-name-input" class="form-control" type="text">
+				</div>
+			</div>
+			<label for="company-input">COMPANY NAME</label>
+			<br>
+			<input id="company-input" class="form-control" type="text">
+
+			<label for="email-input">EMAIL ADDRESS</label>
+			<br>
+			<input id="email-input" class="form-control" type="email">
+
+			<label for="phone-input">PHONE NUMBER</label>
+			<br>
+			<input id="phone-input" class="form-control" type="tel">
+
+			<label for="comments-input">COMMENTS</label>
+			<br>
+			<textarea id="comments-input" class="form-control" rows="5"></textarea>
+
+			<br>
+			<hr style="display:inline">
+			<button class="btn clear-btn clear-btn-dark">SUBMIT</button>
+			<br><br>
+		</form>		
+	</div>
+	<div class="col-lg-2 col-12 disappear-on-md"></div>
+	<div class="col-lg-5 col-md-6 center">
+
+		<h3>Corporate Headquarters</h3>
+		<div class="row">
+			<div class="col-1">
+				<i class="fas fa-map-marker-alt fa-4x margin-right-md" style="text-align: right;"></i>
+			</div>
+			<div class="col-11">
+				<p class="address">9823 Pacific Heights Boulevard, Suite H, San Diego, CA 92121</p>
+			</div>
+		</div>
+
+		<h3>Phone</h3>
+		<div class="row">
+			<div class="col-1">
+				<i class="fas fa-phone fa-4x margin-right-md" style="text-align: right;"></i>
+			</div>
+			<div class="col-11">
+				<p><a href="tel: 1-858-712-0040">(858) 712-0040</a></p>
+			</div>
+		</div>
+		
+		<h3>Email</h3>
+		<div class="row">
+			<div class="col-1">
+				<i class="fas fa-envelope fa-4x margin-right-md" style="text-align: right;"></i>
+			</div>
+			<div class="col-11">
+				<p><a href="mailto:info@tridengroup.com">info@tridengroup.com</a></p>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>

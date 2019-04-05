@@ -1,0 +1,6 @@
+title: Triden Group
+# change baseurl to "" for serve and "." for build
+baseurl: ""
+url: ""
+markdown: kramdown
+include: [_data]

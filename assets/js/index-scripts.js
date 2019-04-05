@@ -67,19 +67,23 @@ $(function() {
 	$('.big-col-inner').click(function() {
 		$('html, body').animate({
 			scrollTop: $('#headline-slogan').offset().top
-		}, 500);
+		}, 750);
 	});
 
 	$('#col-cloud').addClass('active');
 	
-	$('#menu-btn').click(function() {
-		if($('#menu-icon').hasClass('fa-bars') ) {
-			$('#menu-icon').addClass('fa-times');
-			$('#menu-icon').removeClass('fa-bars');
-		} else {
-			$('#menu-icon').addClass('fa-bars');
-			$('#menu-icon').removeClass('fa-times');
-		}
+
+	$('#cloud-learn-more').click(function() {
+		// window.open('/cloud/', '_self');
+		window.open('/solutions/#cloud', '_self');
+	});
+	$('#security-learn-more').click(function() {
+		// window.open('/security/', '_self');
+		window.open('/solutions/#security', '_self');
+	});
+	$('#infra-learn-more').click(function() {
+		// window.open('/infrastructure/', '_self');
+		window.open('/solutions/#infrastructure', '_self');
 	});
 
 });

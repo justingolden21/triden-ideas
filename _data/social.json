@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Facebook",
+    "url": "https://www.facebook.com/TODO/",
+    "icon": "fab fa-facebook-f"
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/TODO",
+    "icon": "fab fa-twitter"
+  },
+  {
+    "name": "YouTube",
+    "url": "https://www.youtube.com/channel/TODO",
+    "icon": "fab fa-youtube"
+  },
+  {
+    "name": "Email",
+    "url": "mailto:info@tridengroup.com",
+    "icon": "fas fa-envelope"
+  }
+]

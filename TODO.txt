@@ -1,0 +1,56 @@
+before launch:
+
+social links, blog, and calender links must work (footer)
+
+test contact page
+
+hook up support portal login to backend
+
+change autofocus from searchbar to other inouts for contact and support login
+
+replace lipsum in solutions page
+
+search bar working
+
+get correct images
+
+--------------------------
+describe each of 4 from pg5 of slide from services in hamburger menu to new page
+	use more or less exact text from slide pg5
+
+services at bottom of dropdown, rename to solutions, break into 3: cloud, infra, security
+about, solutions, services, contact, support
+can be left to right in one row
+
+solutions goes to new page with heading with cloud, securit, infra with more in deprh write up of each, can also be linked from learn more
+
+services 4 columns each one has a dropdown to a paragraph
+
+
+each of 4 has one of cloud, security, infra
+
+
+	4 services: consultation, implementation, training, managed
+		powerpoint pg5
+		each one has dropdown summary for read more
+	3 solutions: cloud, infra, security
+
+
+make a notes file: note: #aaa is lighter grey
+
+-------------------------------------
+later: search bar with autocomplete (typeahead)
+later: get correct images / rights to images
+later: make contract
+
+add 404
+
+add google analytics
+
+add links to socials in data folder
+
+add fb and twitter metadata to head.html
+https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started?ref=frontendchecklist
+realfavicongenerator.net
+
+change font

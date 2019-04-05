@@ -1,296 +1,108 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Triden Group</title>
-
-<meta charset="utf-8">
-<meta name="title=" content="Triden Group">
-<meta name="robots" content="index, follow">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Providing cyber security and cloud services">
-<meta name="keywords" content="triden group, triden, security, cybersecurity, security services, security solutions, security solutions provider">
-
-<meta name="theme-color" content="#349dee">
-<meta name="msapplication-navbutton-color" content="#349dee">
-<meta name="apple-mobile-web-app-status-bar-style" content="#349dee">
-<link rel="shortcut icon" href="img/logo/logo-shield-square-transparent-64.png">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+---
+layout: default-layout
+active: Home
+---
 
 <!-- slick -->
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-<link rel="stylesheet" href="css/styles.css">
-<script src="js/scripts.js"></script>
-
-</head>
-
-<body>
-
-<nav class="navbar fixed-top navbar-lg" role="navigation">
-<!-- <nav class="navbar fixed-top navbar-expand-lg" role="navigation"> -->
-	<a class="navbar-brand" href="#"><img src="img/logo/logo-banner-simple-white.png" width="250px"></a>
-	<!-- <a class="navbar-brand" href="#"><img src="img/logo-banner-simple.png" width="200px"></a> -->
-
-	<form id="search-form" class="form-inline ml-auto">
-		<div class="input-group">
-		
-			<input id="search" class="form-control" type="search" autofocus="true" placeholder="Search our solutions..." aria-label="Search">
-			<div class="input-group-append">
-				<button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
-			</div>
-		</div>
-	</form>
-
-	<button id="menu-btn" class="navbar-toggler navbar-dark" type="button" title="Menu" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-		<!-- <span class="navbar-toggler-icon"></span> -->
-		<i id="menu-icon" class="fas fa-bars"></i>
-	</button>
-
-	<div class="collapse navbar-collapse" id="navbarContent">
-		<ul class="navbar-nav mr-auto">
-<!-- 			<li class="nav-item active">
-				<a class="nav-link" href="#">Home</a>
-			</li> -->
-<!-- 			<li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Services
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Architectural Design & Implementation</a>
-					<a class="dropdown-item" href="#">Enterprise Risk & Compliance</a>
-					<a class="dropdown-item" href="#">Education & Awareness</a>
-					<a class="dropdown-item" href="#">Security Program Strategy</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Enterprise Incident Management</a>
-					<a class="dropdown-item" href="#">Identity & Access Management</a>
-					<a class="dropdown-item" href="#">Threat & Vulnerability Management</a>
-					<a class="dropdown-item" href="#">Security & Managed Services</a>
-					<a class="dropdown-item" href="#">Public Cloud & Security</a>
-				</div>
-			</li> -->
-			<li class="nav-item">
-				<a class="nav-link" href="#">About</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Services</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Solutions</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Contact</a>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="#">Support</a>
-			</li>
-		</ul>
-
-		<!-- note: search form used to be here -->
-
-		<!-- <ul class="navbar-nav ml-auto">
-			<div class="row text-center">
-				<div class="col-4">
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-facebook fa-2x"></i></a>
-					</li>
-				</div>
-				<div class="col-4">
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a>
-					</li>
-				</div>
-				<div class="col-4">
-					<li class="nav-item">
-						<a class="nav-link" href="#"><i class="fab fa-youtube fa-2x"></i></a>
-					</li>
-				</div>
-			</div>
-		</ul> -->
-
-	</div>
-</nav>
-
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index-styles.css">
+<script src="{{ site.baseurl }}/assets/js/index-scripts.js"></script>
 
 <!-- <br><br> -->
 <div id="headline-div">
 
+  <br><br>
+  <br><br>
+  <!-- <h1 class="text-primary">Triden Group</h1>  -->
+  <br><br>
+  <h1 id="headline-slogan"><b>Where Security Protects Innovation</b></h1>
+  <br>
+  <br id="above-slider">
 
-	<br><br>
-	<br><br>
-	<!-- <h1 class="text-primary">Triden Group</h1>	 -->
-	<br><br>
-	<h1 id="headline-slogan"><b>Where Security Protects Innovation</b></h1>
-	<br>
-	<br id="above-slider">
-
-	<div id="slider">
-		<div class="slider-item">
-			<div class="row">
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-4">
-					<img class="slider-img mx-auto" src="img/stock/cloud-1.jpg" width="400px">
-				</div>
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-6">
-					<br>
-					<h3>Cloud</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed euismod dui. Fusce sem arcu, blandit ultrices pretium vel, euismod a neque. Curabitur eu ex orci. Phasellus urna enim, volutpat id faucibus vitae, imperdiet non nisl. Nunc gravida ut risus ac maximus. Suspendisse maximus mollis diam, nec dignissim velit venenatis eu. Praesent molestie ligula et metus dictum rhoncus. Phasellus semper felis et commodo commodo. Quisque dignissim mollis rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse gravida felis id tempus imperdiet.</p>
-					<button class="btn learn-more-btn">Learn More</button><br><br><br><br>
-				</div>
-			</div>
-		</div>
-		<div class="slider-item">
-			<div class="row">
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-4">
-					<img class="slider-img mx-auto" src="img/stock/security-1.jpeg" width="400px">
-				</div>
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-6">
-					<br>
-					<h3>Security</h3>
-					<p>Praesent eu mi eu nisi pulvinar pretium ac ut ante. Ut convallis eget nisi sit amet vestibulum. Cras sit amet nibh ac libero dignissim viverra a et purus. Aliquam lacinia ut lacus non consequat. Pellentesque id risus tortor. Maecenas iaculis nunc leo, condimentum pellentesque sapien varius quis. Proin nunc velit, euismod vitae nunc et, vulputate ultrices lectus. Pellentesque in arcu vitae arcu aliquet bibendum.</p>
-					<button class="btn learn-more-btn">Learn More</button><br><br><br><br><br><br><br><br>
-				</div>
-			</div>
-		</div>
-		<div class="slider-item">
-			<div class="row">
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-4">
-					<img class="slider-img mx-auto" src="img/stock/infra-1.jpg" width="400px">
-				</div>
-				<div class="col-lg-1">
-				</div>
-				<div class="col-lg-6">
-					<br>
-					<h3>Infrastructure</h3>
-					<p>Nullam vel commodo enim. Nulla tellus massa, rutrum eu sapien eget, semper molestie libero. Nam vel nibh in justo placerat imperdiet. Suspendisse lobortis id tortor vitae lobortis. Proin quis metus elit. Aliquam a urna sit amet magna ultricies consequat vel vitae sem. Etiam vehicula ac nibh eu porta. Sed auctor nec leo ut vulputate. Ut sit amet libero eget magna fringilla venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris felis ligula, interdum ut blandit vitae, pharetra vitae tellus. Suspendisse tristique interdum nisl, a luctus neque. Phasellus convallis, odio a finibus mattis, erat risus maximus massa, eu consectetur elit ligula tincidunt neque. Praesent ut pretium nulla.</p>
-					<button class="btn learn-more-btn">Learn More</button><br><br>
-				</div>
-			</div>
-		</div>
-	</div>
+  <div id="slider">
+    <div class="slider-item">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-4">
+          <img class="slider-img mx-auto" src="{{ site.baseurl }}/assets/images/stock/cloud-1.jpg" width="400px">
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-6">
+          <br>
+          <h3>Cloud</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed euismod dui. Fusce sem arcu, blandit ultrices pretium vel, euismod a neque. Curabitur eu ex orci. Phasellus urna enim, volutpat id faucibus vitae, imperdiet non nisl. Nunc gravida ut risus ac maximus. Suspendisse maximus mollis diam, nec dignissim velit venenatis eu. Praesent molestie ligula et metus dictum rhoncus. Phasellus semper felis et commodo commodo. Quisque dignissim mollis rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse gravida felis id tempus imperdiet.</p>
+          <button id="cloud-learn-more" class="btn clear-btn">Learn More</button><br><br><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="slider-item">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-4">
+          <img class="slider-img mx-auto" src="{{ site.baseurl }}/assets/images/stock/security-1.jpeg" width="400px">
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-6">
+          <br>
+          <h3>Security</h3>
+          <p>Praesent eu mi eu nisi pulvinar pretium ac ut ante. Ut convallis eget nisi sit amet vestibulum. Cras sit amet nibh ac libero dignissim viverra a et purus. Aliquam lacinia ut lacus non consequat. Pellentesque id risus tortor. Maecenas iaculis nunc leo, condimentum pellentesque sapien varius quis. Proin nunc velit, euismod vitae nunc et, vulputate ultrices lectus. Pellentesque in arcu vitae arcu aliquet bibendum.</p>
+          <button id="security-learn-more" class="btn clear-btn">Learn More</button><br><br><br><br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+    <div class="slider-item">
+      <div class="row">
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-4">
+          <img class="slider-img mx-auto" src="{{ site.baseurl }}/assets/images/stock/infra-1.jpg" width="400px">
+        </div>
+        <div class="col-lg-1">
+        </div>
+        <div class="col-lg-6">
+          <br>
+          <h3>Infrastructure</h3>
+          <p>Nullam vel commodo enim. Nulla tellus massa, rutrum eu sapien eget, semper molestie libero. Nam vel nibh in justo placerat imperdiet. Suspendisse lobortis id tortor vitae lobortis. Proin quis metus elit. Aliquam a urna sit amet magna ultricies consequat vel vitae sem. Etiam vehicula ac nibh eu porta. Sed auctor nec leo ut vulputate. Ut sit amet libero eget magna fringilla venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris felis ligula, interdum ut blandit vitae, pharetra vitae tellus. Suspendisse tristique interdum nisl, a luctus neque. Phasellus convallis, odio a finibus mattis, erat risus maximus massa, eu consectetur elit ligula tincidunt neque. Praesent ut pretium nulla.</p>
+          <button id="infra-learn-more" class="btn clear-btn">Learn More</button><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-	<div id="slider-cols" class="row text-center">
-		<div class="col-md-4 big-col">
-			<div id="col-cloud" class="big-col-inner">
-			<!-- <div id="col-cloud" class="big-col-inner" data-toggle="modal" data-target="#cloud-modal"> -->
-				<h1><i class="fas fa-cloud"></i><br>Cloud</h1>
-				<br>
-			</div>
-		</div>
-		<div class="col-md-4 big-col">
-			<div id="col-security" class="big-col-inner">
-				<h1><i id="lock-open-icon" class="fas fa-lock-open"></i><i id="lock-closed-icon" class="fas fa-lock"></i><br>Security</h1>
-				<br>
-			</div>
-		</div>
-		<div class="col-md-4 big-col">
-			<div id="col-infra" class="big-col-inner">
-				<h1>
-					<i class="fas fa-server extra-server-icon"></i>
-					<i class="fas fa-server"></i> 
-					<i class="fas fa-server extra-server-icon"></i>
-					<br>Infrastructure
-				</h1>
-				<br>
-			</div>
-		</div>
-	</div>
+  <div id="slider-cols" class="row text-center">
+    <div class="col-md-4 big-col">
+      <div id="col-cloud" class="big-col-inner">
+      <!-- <div id="col-cloud" class="big-col-inner" data-toggle="modal" data-target="#cloud-modal"> -->
+        <h1><i class="fas fa-cloud"></i><br>Cloud</h1>
+        <br>
+      </div>
+    </div>
+    <div class="col-md-4 big-col">
+      <div id="col-security" class="big-col-inner">
+        <h1><i id="lock-open-icon" class="fas fa-lock-open"></i><i id="lock-closed-icon" class="fas fa-lock"></i><br>Security</h1>
+        <br>
+      </div>
+    </div>
+    <div class="col-md-4 big-col">
+      <div id="col-infra" class="big-col-inner">
+        <h1>
+          <i class="fas fa-server extra-server-icon"></i>
+          <i class="fas fa-server"></i> 
+          <i class="fas fa-server extra-server-icon"></i>
+          <br>Infrastructure
+        </h1>
+        <br>
+      </div>
+    </div>
+  </div>
 
 
 </div>
-
-<!-- <div class="row text-center">
-	<div class="col-12 big-col">
-		<div class="big-col-inner no-hover">
-			<h1><i class="fas fa-shield-alt fa-2x"></i><br><br>Welcome to Triden Group</h1>
-			<br>
-			<p class="text-left">
-			At Triden Group, we strive to become the most advanced, comprehensive, and trusted partner for cyber security solutions.  We address all aspects of information security services and provide solutions to help formulate a comprehensive cybersecurity strategy. Our skilled team will work to identify and neutralize threats and risks, pinpoint and utilize the right technology, and achieve operational preparedness to protect you from malicious attack. We serve as client advocates, holistically addressing any and all of your information security needs, at every level.  We work with governments, educational institutions, and businesses to plan, construct, and implement decisive and successful information security programs that expertly achieve all of your cyber security goals.
-			</p>
-			
-			<img class="center" src="img/undraw_security.svg" width="60%">
-			
-			<h1><i class="fas fa-tools fa-2x"></i><br><br>All the Tools You Need to Succeed.</h1>
-			<br>
-			<p class="text-left">
-			We can deliver a wide range of capabilities &mdash; from technology evaluation and selection to rapid deployment and integration. Our robust partner network and security market insight means we can help you stay current and stay protected.
-			</p>
-		</div>
-	</div>
-</div> -->
-
-<!-- <div class="modal fade" id="cloud-modal">
-	<div class="modal-dialog modal-lg">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h4 class="modal-title"><i class="fas fa-cloud"></i> Cloud</h4>
-				<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-			<div class="modal-body">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ultricies diam. Maecenas vestibulum lorem non turpis vulputate ultrices. Phasellus non velit vitae ex molestie pulvinar id eget sapien. Praesent scelerisque, neque in dignissim porttitor, magna magna ultrices nunc, eget tempus ipsum felis vel lacus. Suspendisse ac vestibulum ipsum. Nullam tincidunt lectus at augue suscipit, a sagittis turpis condimentum. Donec in est eu lorem mollis consequat at ac purus.</p>
-
-				<p>Cras consequat lobortis dui non iaculis. Phasellus porta erat sed urna porta placerat. Praesent hendrerit suscipit volutpat. Sed viverra vitae justo in congue. Curabitur imperdiet sed leo non condimentum. Etiam eros tellus, ullamcorper nec pulvinar quis, mollis et est. In convallis mollis ex, sit amet vehicula est dictum ut.</p>
-			</div>
-		</div>
-	</div>
-</div> -->
-
-
-
-<footer class="page-footer">
-	<br>
-
-	<div class="row container-fluid text-center text-md-left">
-		<div class="col-md-4">
-			<!-- <img src="img/logo-banner.png" width="300px"> -->
-			<img src="img/logo/logo-banner-white.png" width="300px">
-			<br><br>
-		</div>
-		<div id="social-col" class="col-md-4 text-center">
-			<h4>SOCIAL</h4>
-			<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-			&nbsp;
-			<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
-			&nbsp;
-			<a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-			<br><br>
-		</div>
-		<div class="col-md-4 text-center">
-			<h4>STAY IN TOUCH</h4>
-			<a href="#">Calendar</a>
-			<br>
-			<a href="#">Blog</a>
-			<br>
-			<a href="#">Contact</a>
-			<br><br>
-		</div>
-	</div>
-	<div class="text-center text-uppercase">
-		&copy; Copyright 2019. All Rights Reserved.
-	</div>
-	<br>
-</footer>
-
-
-<!-- <br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br> -->
-
-</body>
-</html>
