@@ -59,8 +59,10 @@ rgb(255, 255, 255)
 /*headline*/
 #headline-div {
 	background: #292929 url('../images/stock/cyber-security-1.jpg') no-repeat fixed center;
+	/*option 2: remember to comment out above line*/
+	/*background: #292929 url('../images/logo/logo-shield-white.svg') no-repeat fixed center;*/
+
 	color: #fff;
-	/*height: 500px;*/
 	text-align: center;
 	position: relative;
 }
@@ -71,6 +73,10 @@ rgb(255, 255, 255)
 #headline-div h1 b {
 	font-weight: 700;
 	text-shadow: 2px 2px 2px #515151;
+
+	/*option2: like .jumbotron h1 in common-styles.css:*/
+	/*background-color: rgba(81,81,81,0.2);*/
+	/*padding: 20px;*/
 }
 
 /*icons*/
