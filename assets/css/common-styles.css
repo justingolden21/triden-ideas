@@ -186,6 +186,20 @@ hr {
 	color: #fff;
 }
 
+/*icons and links*/
+.hover-icon {
+	color: #515151 !important;
+}
+.hover-icon:hover {
+	color: #349dee !important;
+}
+a > i {
+	text-decoration: none !important;
+}
+a, a:hover, a:focus, a:active {
+	color: #349dee;
+}
+
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */
 	#search {
