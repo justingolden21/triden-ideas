@@ -1,0 +1,6 @@
+.fa-phone:hover {
+	transform: rotate(-30deg);
+}
+.fa-map-marker-alt:hover {
+	margin-top: 10px;
+}
