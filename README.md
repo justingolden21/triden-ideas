@@ -1,5 +1,5 @@
 
-<img src="assets/images/icon.svg" width="256px">
+<img src="assets/images/logo/logo-shield.svg" width="256px">
 
 Currently testing website at https://justingolden21.github.io/triden-ideas/
 
