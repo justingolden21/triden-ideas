@@ -21,7 +21,7 @@ body, html {
 	overflow-x: hidden;
 }
 
-img, button, .navbar {
+img, button, .navbar, br {
 	-webkit-user-select: none; /* Safari */        
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
