@@ -4,7 +4,7 @@
 body {
 	/*background-color: rgba(81	,81,81,0.8);*/
 	/*background-color: #515151;*/
-	background-color: #aaa;
+	/*background-color: #aaa;*/
 }
 .col-md-6 {
 	border-left: 1px solid #349dee;
@@ -14,7 +14,7 @@ body {
 	border-top: 1px solid #aaa;*/
 
 	background-color: #fff;
-	box-shadow: 4px 6px 0px #515151;
+	box-shadow: 4px 4px 0px #515151;
 }
 #contact-btn {
 	/*background-color: #fff;*/

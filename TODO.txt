@@ -1,12 +1,6 @@
-edit borders on services.html
-maybe: services page have top image fade into background/with scroll
-improve services page
-
-
-
 before launch:
 
-blog, and calender links must work (footer)
+blog and calender links must work (footer)
 
 test contact page
 
