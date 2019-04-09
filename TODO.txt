@@ -4,6 +4,8 @@ blog and calender links must work (footer)
 
 test contact page
 
+test 404
+
 hook up support portal login to backend
 
 replace lipsum in solutions page
