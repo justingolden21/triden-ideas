@@ -38,7 +38,7 @@ each of 4 has one of cloud, security, infra
 	3 solutions: cloud, infra, security
 
 
-make a notes file: note: #aaa is lighter grey, #292929 is darker
+make a notes file: note: #aaa is lighter grey, #292929 is darker, #dbdbdb is much lighter
 
 -------------------------------------
 later: search bar with autocomplete (typeahead)

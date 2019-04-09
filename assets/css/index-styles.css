@@ -82,7 +82,7 @@ rgb(255, 255, 255)
 #headline-slogan {
 	/*like .jumbotron h1 in common-styles.css:*/
 	background-color: rgba(81,81,81,0.5);
-	padding: 20px;	
+	padding: 20px;
 }
 
 /*icons*/
@@ -157,6 +157,10 @@ rgb(255, 255, 255)
 	}
 	#headline-slogan {
 		margin-top: 75px;
+	}
+	#headline-div {
+		border-right: 0px solid #292929;
+		border-left: 0px solid #292929;
 	}
 }
 @media (max-width: 576px) { /* bootstrap xs */

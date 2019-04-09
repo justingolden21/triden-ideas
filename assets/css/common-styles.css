@@ -16,9 +16,12 @@ rgb(255, 255, 255)
 
 /*generic*/
 body, html {
-	/*background: #349dee;*/
 	color: #515151;
 	overflow-x: hidden;
+}
+
+body {
+	/*background-color: #d4d4d4;*/
 }
 
 img, button, .navbar, br {
@@ -28,10 +31,10 @@ img, button, .navbar, br {
 	user-select: none; /* Standard */
 }
 ::-moz-selection {
-	background: hsl(0, 0%, 90%) !important;
+	background: #dbdbdb !important;
 }
 ::selection {
-	background: hsl(0, 0%, 90%) !important;
+	background: #dbdbdb !important;
 }
 .center {
 	display: block;
@@ -243,6 +246,9 @@ a, a:hover, a:focus, a:active {
 	}
 	#headline-slogan {
 		margin-top: 75px;
+	}
+	.navbar {
+		padding-bottom: 15px;
 	}
 }
 @media (max-width: 576px) { /* bootstrap xs */
