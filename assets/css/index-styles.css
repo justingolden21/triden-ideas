@@ -59,7 +59,9 @@ rgb(255, 255, 255)
 
 /*headline*/
 #headline-div {
-	background: #292929 url('../images/stock/cyber-security-1.jpg') no-repeat fixed center;
+	/*background: #292929 url('../images/stock/cyber-security-1.jpg') no-repeat fixed center;*/
+
+	/*background: #292929 url('../images/stock/shield-keyhole.png') no-repeat fixed center;*/
 	/*option 2: remember to comment out above line*/
 	/*background: #292929 url('../images/logo/logo-shield-white.svg') no-repeat fixed center;*/
 
@@ -140,6 +142,15 @@ rgb(255, 255, 255)
 	transition: all 0.1s linear;
 	-webkit-transition: all 0.1s linear;
 }*/
+
+
+#hex-video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
 
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */

@@ -21,3 +21,14 @@ body {
 /*	color: #fff;
 	border-color: #fff;*/
 }
+.undraw-img {
+	padding-right: 80px;
+	padding-top: 80px;
+	width: 240px;
+}
+
+@media (max-width: 768px) { /* bootstrap sm */
+	.undraw-img {
+		display: none;
+	}
+}
