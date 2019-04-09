@@ -14,6 +14,8 @@ search bar working
 
 get correct images, rights to fontawesome or use material icons
 
+remove unused images
+
 --------------------------
 describe each of 4 from pg5 of slide from services in hamburger menu to new page
 	use more or less exact text from slide pg5
