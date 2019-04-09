@@ -36,6 +36,7 @@ rgb(255, 255, 255)
 	margin: 0px !important;
 	padding: 20px;
 	transition: background-color 0.2s linear;
+	-webkit-transition: background-color 0.2s linear;
 }
 .big-col-inner:hover:not(.no-hover), .big-col-inner:not(.no-hover).active {
 	/*background-color: rgba(81, 81, 81, 0.33);*/
@@ -87,15 +88,19 @@ rgb(255, 255, 255)
 /*icons*/
 .fa-cloud {
 	transition: 0.25s ease-in-out;
+	-webkit-transition: 0.25s ease-in-out;
 }
 .fa-server {
 	transition: margin 0.5s;	
+	-webkit-transition: margin 0.5s;	
 }
 .big-col-inner:hover .fa-cloud, .big-col-inner.active .fa-cloud {
 	transform: scale(1.25);
+	-webkit-transform: scale(1.25);
 }
 .btn:hover .fa-search, .btn:focus .fa-search {
 	transform: scale(1.25);	
+	-webkit-transform: scale(1.25);	
 }
 #lock-closed-icon, .extra-server-icon {
 	display: none;
@@ -130,8 +135,10 @@ rgb(255, 255, 255)
 }
 /*.slider-item:hover {
 	transform: translateY(-4px) scale(1.05);
+	-webkit-transform: translateY(-4px) scale(1.05);
 	box-shadow: 0px 4px 0px #fff;
 	transition: all 0.1s linear;
+	-webkit-transition: all 0.1s linear;
 }*/
 
 /*media queries*/

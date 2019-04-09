@@ -73,16 +73,14 @@ img, button, .navbar, br {
 .page-footer {
 	color: #fff;
 	background-color: #292929;
-	/*background-color: #fff;*/
 }
 .page-footer a {
-	color: #349dee;
 	font-size: 125%;
 }
 
-
 #social-col .fab, #social-col .fas {
-	transition: color 0.2s linear;
+	transition: color 0.1s linear;
+	-webkit-transition: color 0.1s linear;
 	font-size: 150%;
 	color: #fff;
 }
@@ -198,6 +196,31 @@ a > i {
 }
 a, a:hover, a:focus, a:active {
 	color: #349dee;
+	position: relative;
+}
+
+.nav-link, .page-footer a {
+	text-decoration: none !important;
+}
+/*http://tobiasahlin.com/blog/css-trick-animating-link-underlines/*/
+.nav-link:before, .page-footer a:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #349dee;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.2s ease-in-out 0s;
+	transition: all 0.2s ease-in-out 0s;
+}
+.nav-link:hover:before, .page-footer a:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
 }
 
 /*media queries*/
