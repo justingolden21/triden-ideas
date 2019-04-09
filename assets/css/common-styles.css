@@ -250,6 +250,12 @@ a, a:hover, a:focus, a:active {
 	.navbar {
 		padding-bottom: 15px;
 	}
+	#search-form {
+		margin-top: 10px;
+	}
+	.jumbotron {
+		margin-top: 80px;
+	}
 }
 @media (max-width: 576px) { /* bootstrap xs */
 
