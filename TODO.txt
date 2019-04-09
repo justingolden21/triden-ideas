@@ -20,7 +20,17 @@ add aria-label to all links and buttons
 
 uglify js and css
 
-video: https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
+hex:
+https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
+
+shield:
+https://www.shutterstock.com/video/clip-1014632630-internet-technology-cyber-security-concept-protect-scan
+
+city:
+https://www.shutterstock.com/video/clip-11841857-virtual-city-aerial-drone-flight-on-cybernetic
+
+shield-circuit:
+https://www.shutterstock.com/video/clip-13805336-network-security-shield-circuit-board-firewall-technology
 
 --------------------------
 describe each of 4 from pg5 of slide from services in hamburger menu to new page

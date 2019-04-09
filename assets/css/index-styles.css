@@ -145,6 +145,7 @@ rgb(255, 255, 255)
 
 
 #hex-video {
+	/*top: 20px;*/
 	position: fixed;
 	right: 0;
 	bottom: 0;
