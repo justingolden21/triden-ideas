@@ -123,6 +123,11 @@ rgb(255, 255, 255)
 	/*box-shadow: 8px 8px 4px #292929;*/
 	opacity: 0.9;
 }
+/*.slider-item:hover {
+	transform: translateY(-4px) scale(1.05);
+	box-shadow: 0px 4px 0px #fff;
+	transition: all 0.1s linear;
+}*/
 
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */
