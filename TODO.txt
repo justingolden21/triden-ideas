@@ -1,4 +1,3 @@
-make nav items smaller
 edit borders on services.html
 maybe: services page have top image fade into background/with scroll
 improve services page
@@ -41,7 +40,7 @@ each of 4 has one of cloud, security, infra
 	3 solutions: cloud, infra, security
 
 
-make a notes file: note: #aaa is lighter grey
+make a notes file: note: #aaa is lighter grey, #292929 is darker
 
 -------------------------------------
 later: search bar with autocomplete (typeahead)

@@ -62,6 +62,9 @@ rgb(255, 255, 255)
 	/*option 2: remember to comment out above line*/
 	/*background: #292929 url('../images/logo/logo-shield-white.svg') no-repeat fixed center;*/
 
+	border-right: 36px solid #292929;
+	border-left: 36px solid #292929;
+
 	color: #fff;
 	text-align: center;
 	position: relative;
@@ -73,10 +76,12 @@ rgb(255, 255, 255)
 #headline-div h1 b {
 	font-weight: 700;
 	text-shadow: 2px 2px 2px #515151;
+}
 
-	/*option2: like .jumbotron h1 in common-styles.css:*/
-	/*background-color: rgba(81,81,81,0.2);*/
-	/*padding: 20px;*/
+#headline-slogan {
+	/*like .jumbotron h1 in common-styles.css:*/
+	background-color: rgba(81,81,81,0.5);
+	padding: 20px;	
 }
 
 /*icons*/
@@ -105,7 +110,7 @@ rgb(255, 255, 255)
 	display: none !important;
 }
 .slider-item {
-	background-color: rgba(81, 81, 81, 0.67);
+	background-color: rgba(81, 81, 81, 0.5);
 	/*background-color: rgba(255, 255, 255, 0.67);*/
 	/*color: #292929;*/
 }

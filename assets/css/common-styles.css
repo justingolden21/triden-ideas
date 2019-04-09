@@ -57,7 +57,7 @@ img, button, .navbar, br {
 .nav-link {
 	color: #fff !important;
 }
-.nav-link:hover {
+.nav-link:hover, .nav-link.active {
 	color: #349dee !important;	
 }
 

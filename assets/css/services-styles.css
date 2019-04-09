@@ -2,12 +2,22 @@
 	background: #292929 url('../images/stock/services-pen.jpg') no-repeat fixed center;
 }
 body {
-	/*background-color: rgba(81,81,81,0.8);*/
-	background-color: #515151;
+	/*background-color: rgba(81	,81,81,0.8);*/
+	/*background-color: #515151;*/
+	background-color: #aaa;
 }
 .col-md-6 {
-	border-left: 1px solid #515151;
-	border-top: 1px solid #515151;
+	border-left: 1px solid #349dee;
+	border-top: 1px solid #349dee;
+
+/*	border-left: 1px solid #aaa;
+	border-top: 1px solid #aaa;*/
+
 	background-color: #fff;
-	/*box-shadow: 6px 6px 5px #292929;*/
+	box-shadow: 4px 6px 0px #515151;
+}
+#contact-btn {
+	/*background-color: #fff;*/
+/*	color: #fff;
+	border-color: #fff;*/
 }
