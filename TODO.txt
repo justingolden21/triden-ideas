@@ -20,6 +20,8 @@ add aria-label to all links and buttons
 
 uglify js and css
 
+make dropdwon links new pages (or remove dropdown)
+
 hex:
 https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
 

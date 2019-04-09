@@ -13,5 +13,10 @@
 		"name": "Email",
 		"url": "mailto:info@tridengroup.com",
 		"icon": "fas fa-envelope"
+	},
+	{
+		"name": "LinkedIn",
+		"url": "https://www.linkedin.com/company/tridengroup",
+		"icon": "fab fa-linkedin"
 	}
 ]

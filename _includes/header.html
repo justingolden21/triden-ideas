@@ -2,6 +2,26 @@
 <!-- <nav class="navbar fixed-top navbar-expand-lg" role="navigation"> -->
 	<a id="home-img" class="navbar-brand" href="#"><img src="{{ site.baseurl }}/assets/images/logo/logo-banner-simple-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-banner-simple-white.png';" onclick="window.open('/index.html/', '_self');" width="250px"></a>
 
+			{% if page.active=='Solutions' %}
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Services
+				</a>
+				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="#">Architectural Design & Implementation</a>
+					<a class="dropdown-item" href="#">Enterprise Risk & Compliance</a>
+					<a class="dropdown-item" href="#">Education & Awareness</a>
+					<a class="dropdown-item" href="#">Security Program Strategy</a>
+					<div class="dropdown-divider"></div>
+					<a class="dropdown-item" href="#">Enterprise Incident Management</a>
+					<a class="dropdown-item" href="#">Identity & Access Management</a>
+					<a class="dropdown-item" href="#">Threat & Vulnerability Management</a>
+					<a class="dropdown-item" href="#">Security & Managed Services</a>
+					<a class="dropdown-item" href="#">Public Cloud & Security</a>
+				</div>
+			</li>
+			{% endif %}
+
 	<form id="search-form" class="form-inline ml-auto">
 		<div class="input-group">
 			<input id="search" class="form-control" type="search" placeholder="Search our solutions..." aria-label="Search">
@@ -18,23 +38,7 @@
 	<div class="collapse navbar-collapse" id="navbarContent">
 		<ul class="navbar-nav mr-auto">
 
-<!--      <li class="nav-item dropdown">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					Services
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="#">Architectural Design & Implementation</a>
-					<a class="dropdown-item" href="#">Enterprise Risk & Compliance</a>
-					<a class="dropdown-item" href="#">Education & Awareness</a>
-					<a class="dropdown-item" href="#">Security Program Strategy</a>
-					<div class="dropdown-divider"></div>
-					<a class="dropdown-item" href="#">Enterprise Incident Management</a>
-					<a class="dropdown-item" href="#">Identity & Access Management</a>
-					<a class="dropdown-item" href="#">Threat & Vulnerability Management</a>
-					<a class="dropdown-item" href="#">Security & Managed Services</a>
-					<a class="dropdown-item" href="#">Public Cloud & Security</a>
-				</div>
-			</li> -->
+
 			<div class="row">
 				<div class="col-sm-6 col-md-4">
 					<li class="nav-item">

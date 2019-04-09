@@ -226,6 +226,10 @@ a, a:hover, a:focus, a:active {
 	transform: scaleX(1);
 }
 
+.nav-item.dropdown {
+	margin-left: 40px;
+}
+
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */
 	#search {
