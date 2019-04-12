@@ -71,19 +71,5 @@ $(function() {
 	});
 
 	$('#col-cloud').addClass('active');
-	
-
-	$('#cloud-learn-more').click(function() {
-		// window.open('/cloud/', '_self');
-		window.open('/solutions/#cloud', '_self');
-	});
-	$('#security-learn-more').click(function() {
-		// window.open('/security/', '_self');
-		window.open('/solutions/#security', '_self');
-	});
-	$('#infra-learn-more').click(function() {
-		// window.open('/infrastructure/', '_self');
-		window.open('/solutions/#infrastructure', '_self');
-	});
 
 });

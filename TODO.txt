@@ -63,8 +63,6 @@ later: search bar with autocomplete (typeahead)
 later: get correct images / rights to images
 later: make contract
 
-add 404
-
 add google analytics
 
 add fb and twitter metadata to head.html
@@ -72,3 +70,14 @@ https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-
 realfavicongenerator.net
 
 change font
+
+jekyll build--watch
+
+--------------------------------------------------
+
+list of partners somewhere on website (about.html?)
+
+
+them: no fb, yes to instragram
+
+dropdown with 3-4 items under sercives for securit, cloud, infra

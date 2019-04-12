@@ -143,6 +143,11 @@ rgb(255, 255, 255)
 	-webkit-transition: all 0.1s linear;
 }*/
 
+.learn-more-btn:focus {
+	/*from clear-btn:hover in common-styles.css*/
+	background: rgba(255, 255, 255, 0.9);
+	color: #515151;
+}
 
 #hex-video {
 	/*top: 20px;*/

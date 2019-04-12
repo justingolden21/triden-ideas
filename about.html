@@ -5,10 +5,7 @@ active: About
 permalink: /about/
 ---
 
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/about-styles.css">
-<script src="{{ site.baseurl }}/assets/js/contact-btn.js"></script>
-
-<!-- TODO -->
+<link rel="stylesheet" href="{{ site.baseurl }}./assets/css/about-styles.css">
 
 <div id="main-section">
 	<h2 class="text-center blue">Our Company</h2>
@@ -38,6 +35,6 @@ permalink: /about/
 
 	<hr>
 	<br>
-	<button id="contact-btn" class="btn btn-lg clear-btn-dark center">Contact Us</button>
+	<button class="btn btn-lg clear-btn-dark center" onclick="window.open('{{ site.baseurl }}./contact/index.html', '_self');">Contact Us</button>
 
 </div>
