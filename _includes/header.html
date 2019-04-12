@@ -1,10 +1,18 @@
 <nav class="navbar fixed-top navbar-lg" role="navigation">
 <!-- <nav class="navbar fixed-top navbar-expand-lg" role="navigation"> -->
-	<a id="home-img" class="navbar-brand" href="#"><img src="{{ site.baseurl }}./assets/images/logo/logo-banner-simple-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-banner-simple-white.png';"
+	<a id="home-img" class="navbar-brand" href="#">
+		<img
+			{% if page.active!='Home' %}
+				src="{{ site.baseurl }}./assets/images/logo/logo-banner-simple-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-banner-simple-white.png';"
+			{% else %}
+				src="{{ site.baseurl }}/assets/images/logo/logo-banner-simple-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-banner-simple-white.png';"
+			{% endif %}
+
 		{% if page.active!='Home' %}
 			onclick="window.open('{{ site.baseurl }}./index.html', '_self');"
 		{% endif %}
-		width="250px"></a>
+		width="250px">
+	</a>
 
 			{% if page.active=='Solutions' %}
 			<li class="nav-item dropdown">
