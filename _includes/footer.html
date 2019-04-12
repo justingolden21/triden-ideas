@@ -4,7 +4,13 @@
 
 	<div class="row container-fluid text-center text-md-left">
 		<div class="col-md-4">
-			<img src="{{ site.baseurl }}./assets/images/logo/logo-banner-white.png" width="300px">
+			<img
+				{% if page.active!='Home' %}
+					src="{{ site.baseurl }}./assets/images/logo/logo-banner-white.png"
+				{% else %}
+					src="{{ site.baseurl }}/assets/images/logo/logo-banner-white.png"
+				{% endif %}
+				width="300px">
 			<br><br>
 		</div>
 		<div id="social-col" class="col-md-4 text-center">

@@ -4,12 +4,12 @@
 
 <head>
 
-	<title>
-		{{ site.title }}
-		{% if page.title %}
-			- {{ page.title }}
-		{% endif %}
-	</title>
+<title>
+	{{ site.title }}
+	{% if page.title %}
+		- {{ page.title }}
+	{% endif %}
+</title>
 
 <meta charset="utf-8">
 <meta name="title=" content="Triden Group">
@@ -21,13 +21,21 @@
 <meta name="theme-color" content="#349dee">
 <meta name="msapplication-navbutton-color" content="#349dee">
 <meta name="apple-mobile-web-app-status-bar-style" content="#349dee">
-<link rel="shortcut icon" href="{{ site.baseurl }}./assets/images/logo/logo-shield-square-transparent-64.png">
+{% if page.active!='Home' %}
+	<link rel="shortcut icon" href="{{ site.baseurl }}./assets/images/logo/logo-shield-square-transparent-64.png">
+{% else %}
+	<link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/logo/logo-shield-square-transparent-64.png">
+{% endif %}
 
 <!-- fb metadata edited from old website -->
 <meta property="og:site_name" content="Triden Group">
 <meta property="og:title" content="Where Security Protects Innovation">
 <meta property="og:description" content="Providing cyber security and cloud services">
-<meta property="og:image" content="{{ site.baseurl }}./assets/images/logo/logo-shield-square-transparent-64.png">
+{% if page.active!='Home' %}
+	<meta property="og:image" content="{{ site.baseurl }}./assets/images/logo/logo-shield-square-transparent-64.png">
+{% else %}
+	<meta property="og:image" content="{{ site.baseurl }}/assets/images/logo/logo-shield-square-transparent-64.png">
+{% endif %}
 <meta property="og:url" content="https://www.tridengroup.com/">
 
 <!-- CDNs: jquery, fontawesome, bootstrap -->
@@ -37,8 +45,13 @@
 <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 <!-- local links -->
-<link rel="stylesheet" href="{{ site.baseurl }}./assets/css/common-styles.css">
-<script async type="text/javascript" src="{{ site.baseurl }}./assets/js/common-scripts.js"></script>
+{% if page.active!='Home' %}
+	<link rel="stylesheet" href="{{ site.baseurl }}./assets/css/common-styles.css">
+	<script async type="text/javascript" src="{{ site.baseurl }}./assets/js/common-scripts.js"></script>
+{% else %}
+	<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/common-styles.css">
+	<script async type="text/javascript" src="{{ site.baseurl }}/assets/js/common-scripts.js"></script>
+{% endif %}
 
 <!-- TODO: google analytics -->
 
