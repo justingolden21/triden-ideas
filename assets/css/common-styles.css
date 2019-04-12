@@ -29,6 +29,9 @@ img, button, .navbar, br {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
+
+	-khtml-user-drag: none;
+	-webkit-user-drag: none;
 }
 ::-moz-selection {
 	background: #dbdbdb !important;
