@@ -260,6 +260,9 @@ a, a:hover, a:focus, a:active {
 	.jumbotron {
 		margin-top: 80px;
 	}
+	.hidden-mobile {
+		display: none;
+	}
 }
 @media (max-width: 576px) { /* bootstrap xs */
 
