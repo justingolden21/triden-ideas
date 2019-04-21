@@ -65,9 +65,9 @@ $(function() {
 	});
 
 	$('.big-col-inner').click(function() {
-		$('html, body').animate({
-			scrollTop: $('#headline-slogan').offset().top
-		}, 750);
+		// $('html, body').animate({
+		// 	scrollTop: $('#headline-slogan').offset().top
+		// }, 750);
 	});
 
 	$('#col-cloud').addClass('active');
