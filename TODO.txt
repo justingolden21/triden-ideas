@@ -10,7 +10,7 @@ hook up support portal login to backend
 
 replace lipsum in solutions page
 
-search bar working
+search bar working (autocomplete with typeahead.js?)
 
 get correct images, rights to fontawesome or use material icons
 
@@ -21,6 +21,10 @@ add aria-label to all links and buttons
 uglify js and css
 
 make dropdwon links new pages (or remove dropdown)
+
+add google analytics
+================================================================
+videos:
 
 hex:
 https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
@@ -34,7 +38,7 @@ https://www.shutterstock.com/video/clip-11841857-virtual-city-aerial-drone-fligh
 shield-circuit:
 https://www.shutterstock.com/video/clip-13805336-network-security-shield-circuit-board-firewall-technology
 
---------------------------
+================================================================
 describe each of 4 from pg5 of slide from services in hamburger menu to new page
 	use more or less exact text from slide pg5
 
@@ -58,26 +62,22 @@ each of 4 has one of cloud, security, infra
 
 make a notes file: note: #aaa is lighter grey, #292929 is darker, #dbdbdb is much lighter
 
--------------------------------------
-later: search bar with autocomplete (typeahead)
-later: get correct images / rights to images
+================================================================
 later: make contract
-
-add google analytics
 
 add fb and twitter metadata to head.html
 https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started?ref=frontendchecklist
 realfavicongenerator.net
 
-change font
+change font?
 
 jekyll build--watch
 
---------------------------------------------------
+================================================================
 
 list of partners somewhere on website (about.html?)
 
 
 them: no fb, yes to instragram
 
-dropdown with 3-4 items under sercives for securit, cloud, infra
+dropdown with 3-4 items under sercives for security, cloud, infra
