@@ -81,3 +81,7 @@ list of partners somewhere on website (about.html?)
 them: no fb, yes to instragram
 
 dropdown with 3-4 items under sercives for security, cloud, infra
+
+================================================================
+
+partners page
