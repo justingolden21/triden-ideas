@@ -65,10 +65,13 @@ $(function() {
 	});
 
 	$('.big-col-inner').click(function() {
+		$('#slider').slick('slickPause');
 		// $('html, body').animate({
 		// 	scrollTop: $('#headline-slogan').offset().top
 		// }, 750);
 	});
+
+	$('#slider').click( ()=> $('#slider').slick('slickPause') );
 
 	$('#col-cloud').addClass('active');
 

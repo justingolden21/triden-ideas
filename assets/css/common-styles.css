@@ -144,10 +144,14 @@ input::placeholder {
 	color: #fff;
 	text-shadow: 2px 2px 2px #515151;
 	background-color: rgba(81,81,81,0.1);
-	padding: 20px;
+	padding: 10px;
 }
 .jumbotron {
+	margin-top: 20px;
 	background-color: #292929;
+
+	margin-bottom: 0px !important;
+	padding-bottom: 0px !important;
 }
 
 /*main section*/
@@ -268,7 +272,7 @@ a, a:hover, a:focus, a:active {
 		margin-top: 10px;
 	}
 	.jumbotron {
-		margin-top: 80px;
+		margin-top: 120px;
 	}
 	.hidden-mobile {
 		display: none;

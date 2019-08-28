@@ -3,9 +3,9 @@
 	<a id="home-img" class="navbar-brand" href="#">
 		<img
 			{% if page.active!='Home' %}
-				src="{{ site.baseurl }}./assets/images/logo/logo-banner-simple-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-banner-simple-white.png';"
+				src="{{ site.baseurl }}./assets/images/logo/logo-banner-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-banner-white.png';"
 			{% else %}
-				src="{{ site.baseurl }}/assets/images/logo/logo-banner-simple-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-banner-simple-white.png';"
+				src="{{ site.baseurl }}/assets/images/logo/logo-banner-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-banner-white.png';"
 			{% endif %}
 
 		{% if page.active!='Home' %}
@@ -14,7 +14,7 @@
 		width="250px">
 	</a>
 
-			{% if page.active=='Solutions' %}
+<!-- 			{% if page.active=='Solutions' %}
 			<li class="nav-item dropdown">
 				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					Services
@@ -32,6 +32,10 @@
 					<a class="dropdown-item" href="#">Public Cloud & Security</a>
 				</div>
 			</li>
+			{% endif %} -->
+
+			{% if page.active!='Home'%}
+				<b style="color:#fff">{{page.title}}</b>
 			{% endif %}
 
 	<form id="search-form" class="form-inline ml-auto">
@@ -128,7 +132,7 @@
 
 {% if page.title %}
 	<div class="jumbotron text-center">
-		<br><br>
+		
 	<h1><img class="top-logo" src="{{ site.baseurl }}./assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-shield-white.png';">
 		<br><b> {{ page.title }} </b></h1>
 	</div>
