@@ -22,6 +22,9 @@ dark grey: #292929;
 */
 
 /*generic*/
+* {
+	outline-color: #349dee !important;
+}
 body, html {
 	color: #515151;
 	overflow-x: hidden;
@@ -80,6 +83,9 @@ img, button, .navbar, br {
 
 #menu-icon {
 	color: #fff;
+}
+#menu-btn:hover #menu-icon {
+	color: #349dee;
 }
 
 /*footer*/
