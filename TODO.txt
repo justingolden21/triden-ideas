@@ -1,3 +1,7 @@
+ideas:
+
+add images to 3 service pages (in row/col)
+
 before launch:
 
 blog and calender links must work (footer)
