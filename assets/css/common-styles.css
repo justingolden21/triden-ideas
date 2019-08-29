@@ -192,7 +192,8 @@ hr {
 }
 .clear-btn {
 	color: rgba(255, 255, 255, 0.9);
-	border: 2px solid rgba(255, 255, 255, 0.9);	
+	border: 2px solid rgba(255, 255, 255, 0.9);
+	transition: all 0.2s linear;
 }
 .clear-btn-dark {
 	color: rgba(81, 81, 81, 0.9);
@@ -250,6 +251,10 @@ a, a:hover, a:focus, a:active {
 	margin-left: 40px;
 }
 
+.mobile-only {
+	display: none;
+}
+
 /*media queries*/
 @media (max-width: 1200px) { /* bootstrap lg */
 	#search {
@@ -282,6 +287,9 @@ a, a:hover, a:focus, a:active {
 	}
 	.hidden-mobile {
 		display: none;
+	}
+	.mobile-only {
+		display: inherit;
 	}
 }
 @media (max-width: 576px) { /* bootstrap xs */

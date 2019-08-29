@@ -100,8 +100,8 @@ rgb(255, 255, 255)
 	-webkit-transition: margin 0.5s;	
 }
 .big-col-inner:hover .fa-cloud, .big-col-inner.active .fa-cloud {
-	transform: scale(1.25);
-	-webkit-transform: scale(1.25);
+	transform: scale(1.33);
+	-webkit-transform: scale(1.33);
 }
 .btn:hover .fa-search, .btn:focus .fa-search {
 	transform: scale(1.25);	
