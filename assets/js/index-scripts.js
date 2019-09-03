@@ -24,14 +24,21 @@ $(function() {
 
 	$('#slider').slick({
 		// dots: true
-		autoplay: true,
+		// autoplay: true,
+		autoplay: false,
 		autoplaySpeed: 4000,
 		speed: 750
 	});
 
+	$('.big-col-inner').find('.learn-more-btn').addClass('hidden');
+
 	$('#slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
 		$('.big-col-inner').removeClass('active');
 		$('#col-'+ 'cloud security infra'.split(' ')[nextSlide]).addClass('active');
+
+		$('.big-col-inner').find('.learn-more-btn').addClass('hidden');
+		$('#col-'+ 'cloud security infra'.split(' ')[nextSlide]).find('.learn-more-btn').removeClass('hidden');
+
 		if(nextSlide==1) {
 			$('#lock-open-icon').css('display', 'none');
 			$('#lock-closed-icon').css('display', 'inline');
@@ -53,26 +60,33 @@ $(function() {
 		// console.log(nextSlide);
 	});
 
-	$('#col-cloud').click(function() {
+	$('#col-cloud').hover(function() {
 		$('#slider').slick('goTo', 0);
-	});
-	$('#col-security').click(function() {
+	}
+	// ,function() {$('#slider').slick('goTo', 3);}
+	);
+	$('#col-security').hover(function() {
 		$('#slider').slick('goTo', 1);
-	});
-	$('#col-infra').click(function() {
+	}
+	// ,function() {$('#slider').slick('goTo', 3);}
+	);
+	$('#col-infra').hover(function() {
 		$('#slider').slick('goTo', 2);
-	});
+	}
+	// ,function() {$('#slider').slick('goTo', 3);}
+	);
 
-	$('.big-col-inner').click(function() {
-		$('#slider').slick('slickPause');
-		// $('html, body').animate({
-		// 	scrollTop: $('#headline-slogan').offset().top
-		// }, 750);
-	});
+	// $('.big-col-inner').hover(function() {
+	// 	$('#slider').slick('slickPause');
+	// 	// $('html, body').animate({
+	// 	// 	scrollTop: $('#headline-slogan').offset().top
+	// 	// }, 750);
+	// });
 
-	$('#slider').click( ()=> $('#slider').slick('slickPause') );
+	$('#slider').hover( ()=> $('#slider').slick('slickPause') );
 
 	$('#col-cloud').addClass('active');
+	// $('#slider').slick('goTo', 3);
 
 	// $('#hex-video').prop('playbackRate',2);
 
