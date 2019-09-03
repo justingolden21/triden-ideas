@@ -26,7 +26,8 @@ $(function() {
 		// dots: true
 		autoplay: true,
 		autoplaySpeed: 4000,
-		speed: 750
+		// speed: 750
+		speed: 250
 	});
 
 	$('#slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
