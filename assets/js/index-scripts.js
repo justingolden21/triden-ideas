@@ -10,7 +10,6 @@ $(function() {
 		}
 	});
 
-
 	$('#col-infra').hover(function() {
 		$('.extra-server-icon').css('display', 'inline');
 		$('.fa-server').css('margin', '0px 10px');

@@ -40,13 +40,22 @@ rgb(255, 255, 255)
 }
 .big-col-inner:hover:not(.no-hover), .big-col-inner:not(.no-hover).active {
 	/*background-color: rgba(81, 81, 81, 0.33);*/
-	background-color: rgba(52, 158, 239, 0.8); /*#349dee*/
+
+	/*background-color: rgba(52, 158, 239, 0.8); /*#349dee*/*/
 	border-color: rgba(52, 158, 239, 0.8); /*#349dee*/
 	color: #fff;
 	/*border-color: #349dee;*/
 
 	cursor: pointer;
 }
+
+.big-col-inner:hover:not(.no-hover) {
+	background-color: rgba(52, 158, 239, 0.9); /*#349dee*/
+}
+.big-col-inner:not(.no-hover).active {
+	background-color: rgba(52, 158, 239, 0.7); /*#349dee*/
+}
+
 .big-col-inner h1 {
 	font-size: 200% !important;
 }
@@ -120,6 +129,9 @@ rgb(255, 255, 255)
 	display: none !important;
 }
 .slider-item {
+	margin: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
 	/*old: */
 	/*background-color: rgba(81, 81, 81, 0.5);*/
 
@@ -128,8 +140,13 @@ rgb(255, 255, 255)
 	/*background-color: rgba(255, 255, 255, 0.67);*/
 	/*color: #292929;*/
 }
+.slider-item h3 {
+	font-size: 200%;
+/*	color: #349dee;
+	text-shadow: 1px 1px 1px #333;*/
+}
 .slider-item p {
-	font-size: 125%;
+	font-size: 145%;
 	padding-right: 30px;
 	padding-left: 30px;
 	text-align: left;
