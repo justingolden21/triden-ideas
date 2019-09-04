@@ -273,9 +273,6 @@ a, a:hover, a:focus, a:active {
 	}
 }
 @media (max-width: 768px) { /* bootstrap sm */
-	#slider-cols {
-		display: none;
-	}
 	#headline-slogan {
 		margin-top: 75px;
 	}

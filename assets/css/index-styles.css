@@ -15,7 +15,24 @@ rgb(255, 255, 255)
 */
 
 #about-p {
-	margin: 20px;
+	/*margin: 20px;*/
+	margin: 0px;
+}
+
+#about-us-div {
+	/*background-color: rgba(255,255,255,0.8);*/
+	background-color: rgba(81,81,81,0.5);
+	border: 2px solid #fff;
+	/*color: #515151;*/
+
+	/*padding: 10px;*/
+}
+#about-us-div h3, #about-us-div p {
+	/*background-color: rgba(81,81,81,0.8);*/
+	padding: 5px;
+
+	color: #fff;
+	text-shadow: 1px 1px 0px #349dee;
 }
 
 /*big columns*/
@@ -218,9 +235,9 @@ body {
 	#headline-div {
 		margin-top: 160px;
 	}
-	#slider-cols {
+/*	#slider-cols {
 		display: none;
-	}
+	}*/
 	#headline-slogan {
 		margin-top: 75px;
 	}
