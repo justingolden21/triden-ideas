@@ -34,6 +34,10 @@ rgb(255, 255, 255)
 	color: #fff;
 	text-shadow: 1px 1px 0px #349dee;
 }
+#about-logo {
+	width: 120px;
+	margin-top: 10px;
+}
 
 /*big columns*/
 .big-col {
