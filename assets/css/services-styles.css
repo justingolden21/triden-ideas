@@ -113,6 +113,7 @@ details {
 summary h2 {
 	border: 2px solid #349dee;
 	padding: 20px !important;
+	transition: all 0.3s linear;
 	/*background-color: #515151;*/
 }
 summary h2:hover, summary:focus h2, details[open] summary h2 {
@@ -129,7 +130,7 @@ details summary::-webkit-details-marker {
 }
 
 summary i.fas {
-	transition: all 0.4s ease-in-out;
+	transition: padding-left 0.4s ease-in-out;
 }
 /*details:hover i.fas {*/
 summary:hover i.fas {
