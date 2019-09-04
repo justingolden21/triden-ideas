@@ -14,6 +14,10 @@ white:
 rgb(255, 255, 255)
 */
 
+#about-p {
+	margin: 20px;
+}
+
 /*big columns*/
 .big-col {
 	/*padding: 10px;*/

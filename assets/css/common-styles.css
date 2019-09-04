@@ -57,6 +57,9 @@ img, button, .navbar, br {
 .hidden {
 	visibility: hidden;
 }
+.hidden.height-hidden {
+	height: 0px !important;
+}
 .top-logo {
 	width: 75px;
 }
