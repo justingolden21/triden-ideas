@@ -128,6 +128,15 @@ details summary::-webkit-details-marker {
 	/*display: none !important;*/
 }
 
+summary i.fas {
+	transition: all 0.4s ease-in-out;
+}
+/*details:hover i.fas {*/
+summary:hover i.fas {
+	padding-left: 40px;
+	/*transform: scale(1.2);*/
+}
+
 @media (max-width: 992px) { /* bootstrap md */
 /*	.color-box {
 		background-color: inherit;
