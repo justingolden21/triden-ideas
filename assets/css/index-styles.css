@@ -35,8 +35,10 @@ rgb(255, 255, 255)
 	text-shadow: 1px 1px 0px #349dee;
 }
 #about-logo {
-	width: 120px;
+	/*width: 120px;*/
 	margin-top: 10px;
+
+	width: 0px;
 }
 
 /*big columns*/

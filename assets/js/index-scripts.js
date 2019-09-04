@@ -1,6 +1,12 @@
 // let firstClick = true;
 
 $(function() {
+
+	// $('#about-logo').hide().fadeIn(2000);
+	$('#about-logo').animate({
+		width: 96
+	});
+
 	$('#col-security').hover(function() {
 		$('#lock-open-icon').css('display', 'none');
 		$('#lock-closed-icon').css('display', 'inline');
