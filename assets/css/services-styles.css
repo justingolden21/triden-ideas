@@ -105,6 +105,10 @@ details[open] {
 summary {
 	outline: none !important;
 }
+details {
+	width: 100% !important;
+	text-align: center;
+}
 summary h2 {
 	border: 2px solid #349dee;
 	/*background-color: #515151;*/
