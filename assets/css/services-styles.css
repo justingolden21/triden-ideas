@@ -109,7 +109,7 @@ summary h2 {
 	border: 2px solid #349dee;
 	/*background-color: #515151;*/
 }
-summary h2:hover, details[open] summary h2 {
+summary h2:hover, summary:focus h2, details[open] summary h2 {
 	/*color: #515151 !important;*/
 	/*color: #aaa !important;*/
 	background-color: #349dee;
