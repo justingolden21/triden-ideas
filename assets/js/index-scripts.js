@@ -30,7 +30,7 @@ $(function() {
 		autoplay: false,
 		autoplaySpeed: 4000,
 		// speed: 750
-		speed: 250
+		speed: 500
 	});
 
 	$('#slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
