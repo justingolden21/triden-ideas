@@ -25,11 +25,5 @@ hover over slider item to display it
 learn more btn inside hover div
 when unhover, display default info
 
-services page: move img to left, move caret on same line, make work on IE/Edge
-
-services page:
-all 4 in new rows
-different background colors for header and lists
-lists have margin on left and right
-clicking one details summary collapses all other summaries
-put caret back
+services page: move caret on same line, make work on IE/Edge
+image on every other side
