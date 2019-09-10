@@ -20,10 +20,11 @@ infrastructure:
 - LAN
 contact
 
-homepage slider idea:
-hover over slider item to display it
-learn more btn inside hover div
-when unhover, display default info
+homepage margin 0 above #about-us-div
 
+&#9654;
+right facing triangle
 services page: move caret on same line, make work on IE/Edge
 image on every other side
+
+services make 3rd children into second children

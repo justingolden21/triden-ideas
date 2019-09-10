@@ -32,8 +32,8 @@ $(function() {
 
 	$('#slider').slick({
 		// dots: true
-		// autoplay: true,
-		autoplay: false,
+		autoplay: true,
+		// autoplay: false,
 		autoplaySpeed: 4000,
 		// speed: 750
 		speed: 500
@@ -89,7 +89,9 @@ $(function() {
 
 	$('#slider').click( ()=> $('#slider').slick('slickPause') );
 
-	// $('#col-cloud').addClass('active');
+	$('#col-cloud').addClass('active');
+	$('#slider').slick('goTo', 0);
+	$('#slider').removeClass('hidden');
 
 	// $('#hex-video').prop('playbackRate',2);
 
