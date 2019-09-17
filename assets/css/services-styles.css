@@ -148,6 +148,10 @@ summary:hover i.fas {
 	/*transform: scale(1.2);*/
 }
 
+details summary::-webkit-details-marker {
+	display:none;
+}
+
 @media (max-width: 992px) { /* bootstrap md */
 /*	.color-box {
 		background-color: inherit;
@@ -159,14 +163,22 @@ summary:hover i.fas {
 	.col-lg-6 {
 		border-bottom: 1px solid #515151;
 	}*/
+	
+	.undraw-img {
+		margin: auto;
+		width: 40%;
+		margin: 10px;
+		padding: 10px;
+	}
+	.col-lg-4 {
+		text-align: center;
+	}
 }
 @media (max-width: 1200px) and (min-width: 992px) { /* bootstrap lg and md */
-/*	.undraw-img {
-		display: none;
-	}*/
+	
 }
 @media (max-width: 768px) { /* bootstrap sm */
-/*	.undraw-img {
+	.undraw-img {
 		display: none;
-	}*/
+	}
 }

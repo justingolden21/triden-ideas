@@ -20,11 +20,11 @@ infrastructure:
 - LAN
 contact
 
-homepage margin 0 above #about-us-div
 
-&#9654;
-right facing triangle
-services page: move caret on same line, make work on IE/Edge
+done:
 image on every other side
-
 services make 3rd children into second children
+moved varet on same line, has all open in IE/Edge
+fixed up scaling of undraw images
+
+homepage margin 0 above #about-us-div
