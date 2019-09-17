@@ -23,8 +23,8 @@ contact
 
 done:
 image on every other side
-services make 3rd children into second children
-moved varet on same line, has all open in IE/Edge
+services make third children into second children
+moved caret on same line, has all open in IE/Edge
 fixed up scaling of undraw images
 
 homepage margin 0 above #about-us-div
