@@ -1,0 +1,32 @@
+Hi, this is a text document from Justin.
+
+I included this document to make your lives easier if you're trying to figure out how any of the files work.
+
+This website was made with Jekyll. If you want to learn more about it, you can find their website here: https://jekyllrb.com
+
+Firstly, I'll detail how to push your changes after you've updated the website, if you need to update anything for any reason:
+
+Note: You should have Jekyll installed first. You only have to do this once.
+
+	1. Open a command prompt and navigate to the location of this folder.
+
+	2. Run the command "jekyll build --watch" (without quotes). The "--watch" part will keep the website "watching" for any change and building afterwards
+
+	3. All done! Your most recent build will be stored in the "_site" folder. Simply copy the contents of that folder to wherever you want to use them.
+
+Next, I'll detail the file structure:
+
+	* The data folder is where I'm storing all data in the form of .json files. Right now it's only the social media information, so I can create those links dynamically, and so it's easier for you humans to update.
+		* The part you see that starts with "fab" is the class for the corresponding font awesome icon to that social media service. To browse all icons, go to: https://fontawesome.com/icons
+
+	* The includes folder is where I'm storing all of the HTML files that are included in multiple pages, so I don't have to copy/paste the information across all pages. Once of the great things about services like Jekyll.
+
+	* The layouts folder includes the layouts/templates for what different pages can look like. Right now, I've only got one layout there.
+
+	* The assets folder includes all assets in the form of style sheets (css), javascript (js), as well as images and video. I'm currently not including any fonts.
+
+	* Lastly, the main directory has all of the HTML files for each page, the .gitignore and README are for Github, the _config.yml is for Jekyll, the Licence is just the MIT licence I copied from Github, and the TODO and notes files are for my reference.
+
+Hopefully, this little document helps some human wondering how these files are organized, or how to push a minor change, or saves an unnecessary email.
+
+My email is justingolden21@gmail.com, and you can feel free to email me anytime if you've got any questions.
