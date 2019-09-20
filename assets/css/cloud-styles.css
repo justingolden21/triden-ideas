@@ -1,3 +1,4 @@
 .jumbotron {
-	background: #292929 url('../images/stock/cloud-2.jpeg') no-repeat fixed center;
+	background: #292929 url('../images/stock/cloud-2.jpeg') no-repeat fixed top center;
+	background-size: 100%;
 }
