@@ -12,8 +12,6 @@ test 404
 
 hook up support portal login to backend
 
-replace lipsum in solutions page
-
 search bar working (autocomplete with typeahead.js?)
 
 get correct images, rights to fontawesome or use material icons
@@ -34,30 +32,6 @@ hex:
 https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
 
 ================================================================
-describe each of 4 from pg5 of slide from services in hamburger menu to new page
-	use more or less exact text from slide pg5
-
-services at bottom of dropdown, rename to solutions, break into 3: cloud, infra, security
-about, solutions, services, contact, support
-can be left to right in one row
-
-solutions goes to new page with heading with cloud, securit, infra with more in deprh write up of each, can also be linked from learn more
-
-services 4 columns each one has a dropdown to a paragraph
-
-each of 4 has one of cloud, security, infra
-
-
-	4 services: consultation, implementation, training, managed
-		powerpoint pg5
-		each one has dropdown summary for read more
-	3 solutions: cloud, infra, security
-
-
-make a notes file: note: #aaa is lighter grey, #292929 is darker, #dbdbdb is much lighter
-
-================================================================
-later: make contract
 
 add fb and twitter metadata to head.html
 https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started?ref=frontendchecklist
@@ -69,11 +43,4 @@ change font?
 
 list of partners somewhere on website (about.html?)
 
-
 them: no fb, yes to instragram
-
-dropdown with 3-4 items under sercives for security, cloud, infra
-
-================================================================
-
-partners page

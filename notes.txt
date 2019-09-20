@@ -28,3 +28,17 @@ moved caret on same line, has all open in IE/Edge
 fixed up scaling of undraw images
 
 homepage margin 0 above #about-us-div
+
+================================
+
+slider container more padding
+
+where security protects INNOVATION (cycle through) start on innovation, only bold one, all are caps
+
+top left logo just the shiled only on homepage
+
+comment calender in place of contact
+
+search maybe
+
+homepage slider blocks try removing border
