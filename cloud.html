@@ -8,16 +8,18 @@ permalink: /cloud/
 <link rel="stylesheet" href="{{ site.baseurl }}./assets/css/cloud-styles.css">
 
 <div id="main-section">
-	<h2 class="blue">Cloud</h2>
+	<h2 class="blue">What We Do</h2>
 	<br>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu nunc interdum, cursus diam non, commodo ipsum. Cras est felis, finibus dapibus pulvinar vel, pretium ac dui. Sed ornare tortor nec gravida rutrum. Pellentesque pretium, quam eget dapibus venenatis, purus nulla tempus nulla, a condimentum justo leo ac augue. Mauris fringilla ullamcorper sem, a suscipit justo porttitor sed. Morbi tortor tortor, auctor sit amet ligula eu, hendrerit fringilla est. Duis non molestie felis. Aliquam eu urna iaculis, ultricies odio sit amet, semper nisl. Proin non vestibulum metus, eu ullamcorper ligula. Aliquam facilisis lacus ut augue mattis vulputate.</p>
+	<p>{{ site.data.text.solutions.cloud.detail }}</p>
 
-	<h2 class="blue">Cloud Security</h2>
-	<br>
-	<p>Praesent feugiat pretium purus eu lobortis. Proin lobortis condimentum ipsum et pretium. Duis et cursus lacus. Nullam risus nulla, semper vitae risus a, dapibus mattis nulla. Vestibulum nisi urna, condimentum at pellentesque at, accumsan sed nisl. Integer at elit id ex mollis facilisis. Pellentesque leo ipsum, dapibus nec feugiat quis, posuere et libero. Aenean rutrum, arcu vel molestie scelerisque, nisl ipsum ultricies mauris, vel consequat turpis est a ipsum. Etiam dictum tristique nunc laoreet venenatis. Ut malesuada ultrices arcu quis sagittis. Mauris in enim massa. Ut in semper sem. Proin euismod, risus sed suscipit varius, neque metus porta libero, eget fermentum metus sem vel nisl. Nulla eu mattis nisi. Etiam eu magna nisl. Nullam pulvinar risus et nunc iaculis scelerisque.</p>
+	<h2 class="blue">Our Experts Can:</h2>
+	<ul>
+	{% for item in site.data.text.solutions.cloud.list %}
+		<li>{{item}}</li>
+	{% endfor %}
+	</ul>
 
 	<hr>
 	<br>
 	<button class="btn btn-lg clear-btn-dark center" onclick="window.open('{{ site.baseurl }}./contact/index.html', '_self');">Contact Us</button>
-
 </div>

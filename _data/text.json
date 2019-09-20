@@ -1,0 +1,49 @@
+{
+	"home": {
+		"cloud": "Moving your network to the cloud removes the time and costs associated with maintaining an on-premises server infrastructure. Spend less time worrying about hardware, and more time enabling your business operations. Our cloud architects build, migrate, and manage cloud networks with a security first approach.",
+		"security": "Threats to your network have never been more advanced and dangerous to the well-being of your business. Digital crime is a growing business that does not discriminate against targets based on size or revenue. Triden Group’s managed detection and response services protect your operational capacity so you can focus on your bottom line.",
+		"infrastructure": "Triden Group has the experience and expertise to build your network infrastructure with the security and performance your firm needs to grow. Our engineers will taylor and maintain your network to facilitate the integrity of your operational efficiency. We are a vendor agnostic firm that will provide you with the best value and capability the market has to offer."
+	},
+	"about":  {
+		"principles": "We strive to help our clients cultivate a business-specific security culture focused on their specific needs. Contrary to the standard transactional legacy models, we utilize a consultative approach to help our clients achieve maximum benefit.",
+		"values": "At Triden Group, we value our people and appreciate their exceptional knowledge and commitment to customer satisfaction. We value all of our clients, and we seek to demonstrate honesty, integrity, passion, and innovation in everything that we do.",
+		"vision": "To be recognized as an industry leader by providing a meaningful high-quality and innovative contribution to the field of information assurance and cyber security services and solutions.",
+		"company": "The cybersecurity industry's rapidly expanding market is a result of the ever growing and evolving need for cyber security solutions that are more effective, thorough, and creative than the threats they are facing. At Triden Group, we understand the dubious and invasive threats that continuously attempt to threaten the needs of individuals and companies for comprehensive and rigorous protection.<br><br>Effective protection requires an in depth understanding of the complex and multifaceted nature of cybersecurity threats. Forceful and practical cybersecurity solutions necessitate vigorous and capable protection of company and customer information to protect the integrity of your company's reputation and enterprise value. In addition to this basic requirement, competent cybersecurity protection assumes that no system is bulletproof. As cybersecurity threats continue to evolve, your organization's method of protection must continuously adapt and transform. Triden Group understands that even the most impervious programs can be penetrated. Therefore, the most dynamic and capable cybersecurity programs are those that acknowledge and incorporate this fact to create solutions that are both proactive and reactive. Our clients can feel confident that our skilled experts will proactively provide your firm with the most intelligent, innovative, and masterful cybersecurity protection available to prevent potential attacks. Our holistic approach ensures that should your firm experience an attack, we will respond efficiently, capably, and powerfully to minimize damage, neutralize the threat, and prevent further attacks."
+	},
+	"solutions": {
+		"cloud": {
+			"overview": "There is an increasing trend for businesses to continue to move data and information to the cloud. In addition to the increased convenience and additional access cloud storage provides, it also opens your business up to a wide range of internal and external threats that can penetrate your network and compromise your security.  Your business’s success requires a capable and effective security platform to protect your enterprise and its partners, employees, and clients.",
+			"detail": "Triden Group’s experts can provide simple guidance or complete design and management of an effective and secure cloud strategy that protects your company and still allows it access to the benefits the cloud provides.  We can help you manage an existing strategy or develop, implement, and maintain a cloud strategy that ensures your security  and simultaneously enhances your organization’s productivity.  Strong, capable security is essential to any project.  At Triden Group, our team works to aptly identify potential vulnerabilities, minimize risk, and provide you with the security your company needs to continue to thrive.",
+			"list": [
+				"Leverage leading practices and expertise across multiple security disciplines to enhance your cloud strategy",
+				"Securely migrate data to the cloud and manage identities, efficiently & effectively",
+				"Design cloud strategies that allow you to maintain visibility, which allows you to identify user activity and control user access to valuable data and information",
+				"Gain insight into threats and risks within the cloud to subsequently make actionable recommendations"
+			]
+		},
+		"security": {
+			"overview": "The threat sphere continues to evolve at escalating speeds, which makes it increasingly difficult to identify potential threats and manage risk.  Responding to these potential dangers requires a smarter, more powerful intelligence-driven approach. Given today’s environment, a practical solution is one focused on minimizing damage incurred and maximizing resource efficacy.  Business productivity requires a creative solution focused on speed, agility, and effectiveness.",
+			"detail": "Our team of experts work to provide you with a cost effective, results-driven solution tailored to your unique business needs. Consider us your remote partners; we are continuously working to provide you with the additional security and protection that your business demands.  Our experts have the knowledge and experience necessary to provide comprehensive solutions for your specific and complex information and security challenges.  Whether you need interim security assistance or full, round-the-clock protection, our experts are here to provide you with the optimal solution for your unique needs.",
+			"list": [
+				"Effectively and efficiently monitor your network and systems to ensure your environment remains protected and secure",
+				"Improve your security posture to ensure thorough and comprehensive protection",
+				"Simplify reporting and improve overall visibility and awareness",
+				"Expertly identify, analyze, and respond to potential security threats",
+				"Maximize your security technology investment"
+			]
+		},
+		"infrastructure": {
+			"overview": "Security Infrastructure and implementation is becoming increasingly complex as the workforce continues to become more mobile.  As employees and clients alike continue to access your network from numerous different personal devices, both onsite and remotely, it is becoming increasingly difficult to develop an effective network defense strategy.  Security architecture is not simply an IT problem.  A robust network  defense strategy requires you to consider the structural security elements needed to support the evolving technology infrastructure and ever-emerging threats.",
+			"detail": "At Triden Group, our experts will work with your company to develop an effective and efficient network defense strategy that allows you to know who is accessing your network, on what devices, and for what reasons.  Whether you need assistance before, during, or after an attack, we at Triden Group have the knowledge, experience, and technology required to consult, design, implement, and maintain the most effective security infrastructure that meets your individual needs.  Our diverse skills and significant experience applying proven methodologies and deploying the most advanced technologies make us the perfect partner to help you navigate complex environments and select the right solution for your organization.",
+			"list": [
+				"Align your technology strategy with your business goals",
+				"Select and deploy technologies that compliment your unique security, compliance, and business goals",
+				"Fine tune your technologies to maximize efficiency and security",
+				"Assess your organization's readiness for implementing specific technologies",
+				"Evaluate your current strategy and make necessary recommendations",
+				"Help you maximize value by integrating your new and existing security technologies",
+				"Expertly address every aspect of security architecture and implementation, across all technologies and security controls – cloud, network, data, endpoint, security intelligence, web, email and application security"
+			]
+		}
+	}
+}

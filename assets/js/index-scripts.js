@@ -34,9 +34,9 @@ $(function() {
 		// dots: true
 		autoplay: true,
 		// autoplay: false,
-		autoplaySpeed: 4000,
-		// speed: 750
-		speed: 500
+		autoplaySpeed: 12000,
+		speed: 750
+		// speed: 500
 	});
 
 	$('#slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
