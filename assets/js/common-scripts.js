@@ -33,6 +33,8 @@ let isHome = false;
 
 function doSearch() {
 	let val = $('#search-input').val().toLowerCase().trim();
+	if(val=="") return;
+
 	for(let i=0; i < searchables.length; i++) {
 		if(searchables[i].indexOf(val) != -1) { // found
 			if(isHome) // on homepage
