@@ -95,4 +95,19 @@ $(function() {
 
 	// $('#hex-video').prop('playbackRate',2);
 
+	setInterval(cycleText, 3000);
+
+	setTimeout( ()=> isHome = true, 500);
+
 });
+
+let cycleWords = 'INNOVATION;Your Cloud;Your Data;Your Customers;Your Technology;Your Employees;Your Operations;Your Bottom Line'.split(';');
+let idx = 0;
+function cycleText() {
+	if(++idx >= cycleWords.length)
+		idx = 0;
+
+	$('#protects-span').fadeOut(500, ()=> {
+		$('#protects-span').html(cycleWords[idx]);
+	}).fadeIn(500);
+}

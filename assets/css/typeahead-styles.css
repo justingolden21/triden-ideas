@@ -1,0 +1,11 @@
+.tt-menu {
+	background-color: #fff;
+	color: #515151;
+}
+.tt-suggestion {
+	padding: 10px;
+}
+.tt-suggestion.tt-cursor {
+	background-color: #349dee;
+	color: #fff;
+}

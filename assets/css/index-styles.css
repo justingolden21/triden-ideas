@@ -56,9 +56,15 @@ rgb(255, 255, 255)
 	background-color: rgba(255, 255, 255, 0.8);
 	color: #349dee;
 	/*border: 4px solid #fff;*/
+
 	border: 4px solid rgba(255, 255, 255, 0.8);
-/*	border-right-width: 2px;
-	border-left-width: 2px;*/
+
+/*	border-top: 4px solid rgba(255, 255, 255, 0.8);
+	border-bottom: 4px solid rgba(255, 255, 255, 0.8);*/
+
+	border-right-width: 2px;
+	border-left-width: 2px;
+	
 	/*box-shadow: 12px 12px 0px #515151;*/
 	/*margin: 20px;*/
 	margin: 0px !important;
@@ -162,8 +168,8 @@ rgb(255, 255, 255)
 }
 .slider-item {
 	margin: 20px;
-	margin-left: 25px;
-	margin-right: 25px;
+	margin-left: 50px;
+	margin-right: 50px;
 	/*old: */
 	/*background-color: rgba(81, 81, 81, 0.5);*/
 
@@ -239,6 +245,12 @@ body {
 	}
 }
 @media (max-width: 768px) { /* bootstrap sm */
+	.slider-item {
+		margin: 20px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
 	#headline-div {
 		margin-top: 160px;
 	}

@@ -31,13 +31,24 @@
 			<br><br> -->
 		</div>
 		<div class="col-md-4 text-center">
-			<h4>STAY IN TOUCH</h4>
+<!-- 			<h4>STAY IN TOUCH</h4>
+			
 			<a href="#">Calendar</a>
-			<!-- <br> -->
+			
 			&nbsp;&nbsp;&nbsp;&nbsp;
+			
 			<a href="#">Blog</a>
-<!-- 			<br>
-			<a href="/contact/">Contact</a> -->
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;
+			
+			<a 
+			{% if page.active!='Home' %}
+				href="{{ site.baseurl }}./contact/index.html"
+			{% else %}
+				href="{{ site.baseurl }}/contact/index.html"
+			{% endif %}
+			>Contact</a> -->
+
 			<br><br>
 		</div>
 	</div>
