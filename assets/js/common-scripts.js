@@ -1,5 +1,6 @@
 $(function() {
 
+	// update menu icon
 	$('#menu-btn').click(function() {
 		if($('#menu-icon').hasClass('fa-bars') ) {
 			$('#menu-icon').addClass('fa-times');
@@ -10,12 +11,11 @@ $(function() {
 		}
 	});
 
-
+	// perform search on button click or enter key
 	$('#search-btn').click(doSearch);
-	$('#search-input').on('keypress', function(evt) {
-		if(evt.which == 13) { // enter key
+	$('#search-input').on('keypress', (evt)=> {
+		if(evt.which == 13) // enter key
 			doSearch();
-		}
 	});
 
 });
@@ -32,10 +32,8 @@ for(let i=0; i<searchables.length; i++) {
 let isHome = false;
 
 function doSearch() {
-	let val = $('#search-input').val();
-	val = val.toLowerCase().trim();
-	for(let i=0; i< searchables.length; i++) {
-		// console.log(searchables[i], val);
+	let val = $('#search-input').val().toLowerCase().trim();
+	for(let i=0; i < searchables.length; i++) {
 		if(searchables[i].indexOf(val) != -1) { // found
 			if(isHome) // on homepage
 				window.open(searchables[i] + '/index.html', '_self');
@@ -47,6 +45,7 @@ function doSearch() {
 	}
 }
 
+// https://twitter.github.io/typeahead.js/examples/
 let substringMatcher = function(strs) {
 	return function findMatches(q, cb) {
 		let matches, substringRegex;
