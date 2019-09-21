@@ -1,20 +1,10 @@
-ideas:
+======== BEFORE LAUNCH ========
 
-add images to 3 service pages (in row/col)
-
-before launch:
-
-blog and calender links must work (footer)
-
-test contact page
+contact page and login portal backend
 
 test 404
 
-hook up support portal login to backend
-
-search bar working (autocomplete with typeahead.js?)
-
-get correct images, rights to fontawesome or use material icons
+get correct images, rights to fontawesome
 
 remove unused images
 
@@ -25,22 +15,24 @@ clean up and minify files
 do some SEO and go to real favicon generator
 
 add google analytics
-================================================================
-videos:
-
-hex:
-https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
-
-================================================================
 
 add fb and twitter metadata to head.html
-https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started?ref=frontendchecklist
-realfavicongenerator.net
 
-change font?
+	https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started?ref=frontendchecklist
 
-================================================================
+	realfavicongenerator.net
 
-list of partners somewhere on website (about.html?)
+======== MAYBE ========
 
-them: no fb, yes to instragram
+list of partners somewhere on website
+
+======== LATER ========
+
+add calendar and/or blog
+
+add instagram
+
+======== LINKS ========
+
+hex video:
+https://www.shutterstock.com/video/clip-30783463-locks-located-hexagon-cell-on-black-background
