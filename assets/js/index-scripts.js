@@ -97,11 +97,9 @@ $(function() {
 
 	setInterval(cycleText, 3000);
 
-	setTimeout( ()=> isHome = true, 500);
-
 });
 
-let cycleWords = 'INNOVATION;Your Cloud;Your Data;Your Customers;Your Technology;Your Employees;Your Operations;Your Bottom Line'.split(';');
+let cycleWords = '<b>Innovation</b>;Your Cloud;Your Data;Your Customers;Your Technology;Your Employees;Your Operations;Your Bottom Line'.split(';');
 let idx = 0;
 function cycleText() {
 	if(++idx >= cycleWords.length)

@@ -2,16 +2,10 @@
 <!-- <nav class="navbar fixed-top navbar-expand-lg" role="navigation"> -->
 	<a id="home-img" class="navbar-brand" href="#">
 		<img
-			{% if page.active!='Home' %}
-				src="{{ site.baseurl }}./assets/images/logo/logo-banner-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-banner-white.png';"
-				width="250px"
-			{% else %}
-				src="{{ site.baseurl }}/assets/images/logo/logo-banner-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-banner-white.png';"
-				width="250px"
-			{% endif %}
-
+			src="{{ site.baseurl }}/assets/images/logo/logo-banner-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-banner-white.png';"
+			width="250px"
 		{% if page.active!='Home' %}
-			onclick="window.open('{{ site.baseurl }}./index.html', '_self');"
+			onclick="window.open('{{ site.baseurl }}/index.html', '_self');"
 		{% endif %}
 		>
 	</a>
@@ -65,7 +59,7 @@
 					<li class="nav-item">
 						<a class="nav-link {% if page.active=='Home' %} active {% endif %}"
 						{% if page.active!='Home' %}
-							href="{{ site.baseurl }}./index.html"
+							href="{{ site.baseurl }}/index.html"
 						{% endif %}
 						>Home</a>
 					</li>
@@ -73,54 +67,36 @@
 				<div class="col-sm-6 col-md-4">
 					<li class="nav-item">
 						<a class="nav-link {% if page.active=='About' %} active {% endif %}"
-						{% if page.active!='Home' %}
-							href="{{ site.baseurl }}./about/index.html"
-						{% else %}
-							href="{{ site.baseurl }}/about/index.html"
-						{% endif %}
+							href="{{ site.baseurl }}/about.html"
 						>About</a>
 					</li>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<li class="nav-item">
 						<a class="nav-link {% if page.active=='Services' %} active {% endif %}"
-						{% if page.active!='Home' %}
-							href="{{ site.baseurl }}./services/index.html"
-						{% else %}
-							href="{{ site.baseurl }}/services/index.html"
-						{% endif %}
+							href="{{ site.baseurl }}/services.html"
 						>Services</a>
 					</li>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<li class="nav-item">
 						<a class="nav-link {% if page.active=='Solutions' %} active {% endif %}"
-						{% if page.active!='Home' %}
-							href="{{ site.baseurl }}./solutions/index.html"
-						{% else %}
-							href="{{ site.baseurl }}/solutions/index.html"
-						{% endif %}
+							href="{{ site.baseurl }}/solutions.html"
 						>Solutions</a>
 					</li>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<li class="nav-item">
 						<a class="nav-link {% if page.active=='Contact' %} active {% endif %}"
-						{% if page.active!='Home' %}
-							href="{{ site.baseurl }}./contact/index.html"
-						{% else %}
-							href="{{ site.baseurl }}/contact/index.html"
-						{% endif %}>Contact</a>
+							href="{{ site.baseurl }}/contact.html"
+						>Contact</a>
 					</li>
 				</div>
 				<div class="col-sm-6 col-md-4">
 					<li class="nav-item">
 						<a class="nav-link {% if page.active=='Support' %} active {% endif %}"
-						{% if page.active!='Home' %}
-							href="{{ site.baseurl }}./support/index.html"
-						{% else %}
-							href="{{ site.baseurl }}/support/index.html"
-						{% endif %}>Support</a>
+							href="{{ site.baseurl }}/support.html"
+						>Support</a>
 					</li>
 				</div>
 			</div>
@@ -132,7 +108,7 @@
 {% if page.title %}
 	<div class="jumbotron text-center">
 		
-	<h1><img class="top-logo" src="{{ site.baseurl }}./assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}./assets/images/logo/logo-shield-white.png';">
+	<h1><img class="top-logo" src="{{ site.baseurl }}/assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-shield-white.png';">
 		<br><b> {{ page.title }} </b></h1>
 	</div>
 {% endif %}

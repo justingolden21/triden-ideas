@@ -28,20 +28,13 @@ for(let i=0; i<searchables.length; i++) {
 	searchablesPretty.push(str);
 }
 
-// set to true in index scripts only
-let isHome = false;
-
 function doSearch() {
 	let val = $('#search-input').val().toLowerCase().trim();
 	if(val=="") return;
 
 	for(let i=0; i < searchables.length; i++) {
 		if(searchables[i].indexOf(val) != -1) { // found
-			if(isHome) // on homepage
-				window.open(searchables[i] + '/index.html', '_self');
-			else
-				window.open('../' + searchables[i] + '/index.html', '_self');
-			
+			window.open(searchables[i] + '.html', '_self');			
 			return;
 		}
 	}
