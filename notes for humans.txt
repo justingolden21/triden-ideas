@@ -16,8 +16,8 @@ Note: You should have Jekyll installed first. You only have to do this once.
 
 Next, I'll detail the file structure:
 
-	* The data folder is where I'm storing all data in the form of .json files. Right now it's only the social media information, so I can create those links dynamically, and so it's easier for you humans to update.
-		* The part you see that starts with "fab" is the class for the corresponding font awesome icon to that social media service. To browse all icons, go to: https://fontawesome.com/icons
+	* The data folder is where I'm storing all data in the form of .json files. I'm currently storing social media information, so I can create those links dynamically, and so it's easier for you humans to update. I'm also storing the paragraphs rendered on most webpages.
+		* The part you see that starts with "fab" under social.json is the class for the corresponding font awesome icon to that social media service. To browse all icons, go to: https://fontawesome.com/icons
 
 	* The includes folder is where I'm storing all of the HTML files that are included in multiple pages, so I don't have to copy/paste the information across all pages. Once of the great things about services like Jekyll.
 
