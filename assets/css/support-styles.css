@@ -9,6 +9,9 @@ table {
 td {
 	padding-bottom: 20px !important;
 }
+#spinner {
+	display: none;
+}
 
 @media (max-width: 768px) { /* bootstrap sm */
 	table {

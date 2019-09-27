@@ -162,6 +162,16 @@ input::placeholder {
 	margin-bottom: 0px !important;
 	padding-bottom: 0px !important;
 }
+#toast {
+	margin-top: 60px;
+
+	position: fixed;
+	right: 0;
+	z-index: 1031; /*bootstrap i swear why is 1030 the z-index for the nav why*/
+
+	border-radius: 0px;
+	border-color: #292929;
+}
 
 /*main section*/
 #main-section {
@@ -284,6 +294,9 @@ a, a:hover, a:focus, a:active {
 	}
 	.jumbotron {
 		margin-top: 120px;
+	}
+	#toast {
+		margin-top: 140px;
 	}
 	.hidden-mobile {
 		display: none;

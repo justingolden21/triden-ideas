@@ -10,6 +10,7 @@ permalink: contact
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/icon-animations.css">
 <script src="{{ site.baseurl }}/assets/js/address-links.js"></script>
 <script src="{{ site.baseurl }}/assets/js/envelope-hover.js"></script>
+<script src="{{ site.baseurl }}/assets/js/form-scripts.js"></script>
 
 <div id="main-section">
 <div class="row justify-content-between">
@@ -48,6 +49,13 @@ permalink: contact
 			<hr style="display:inline">
 			<button class="btn clear-btn clear-btn-dark" type="submit">SUBMIT</button>
 			<br><br>
+			
+			<div id="alert-div"></div>
+			<div id="spinner" class="spinner-border" role="status">
+				<span class="sr-only">Loading...</span>
+			</div>
+			
+			<br>
 		</form>		
 	</div>
 	<div class="col-lg-2 col-12 disappear-on-md"></div>

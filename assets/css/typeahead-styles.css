@@ -4,8 +4,9 @@
 }
 .tt-suggestion {
 	padding: 10px;
+	cursor: pointer;
 }
-.tt-suggestion.tt-cursor {
+.tt-suggestion.tt-cursor, .tt-suggestion:hover {
 	background-color: #349dee;
 	color: #fff;
 }

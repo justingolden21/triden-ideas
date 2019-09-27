@@ -1,5 +1,7 @@
 ======== BEFORE LAUNCH ========
 
+use bs collapse instead of details summary for IE/edge: https://getbootstrap.com/docs/4.3/components/collapse/
+
 contact page and login portal backend
 
 test 404

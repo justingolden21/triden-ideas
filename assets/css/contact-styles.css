@@ -3,3 +3,6 @@
 }
 /*input[type=text], input[type=email], input[type=number], input[type=phone], textarea {
 }*/
+#spinner {
+	display: none;
+}
