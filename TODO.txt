@@ -1,3 +1,25 @@
+======== MEETING NOTES ========
+
+contact button on each item on services?
+
+replcae bullet points with text on services.
+
+services align details titles to left with padding on left
+
+required form: first, last, email
+
+dropdown menu on contact, prepopulate with clicked item on services
+
+replace second to top undraw vector on services
+
+triden group move left align to "where"
+
+remove logo from homepage on lower section
+
+increase font size on brand on header section
+
+swap opactiy from the company info and the slider
+
 ======== BEFORE LAUNCH ========
 
 use bs collapse instead of details summary for IE/edge: https://getbootstrap.com/docs/4.3/components/collapse/

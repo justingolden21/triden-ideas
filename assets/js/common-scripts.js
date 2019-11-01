@@ -61,7 +61,7 @@ function doSearch() {
 		}
 	}
 
-/*
+
 	// quick loop through the terms
 	for(item in keywords) {
 		if(keywords[item].includes(val) ) { // found
@@ -80,7 +80,7 @@ function doSearch() {
 			}			
 		}
 	}
-*/
+
 
 	showToast('No Results', 'No results were found for <b>' +
 		$('#search-input').val() + '</b>');
