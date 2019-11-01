@@ -14,3 +14,10 @@ function showLoader() {
 function hideLoader() {
 	$('#spinner').css('display', '');
 }
+
+function getLogin() {
+	return {
+		'email': $('#email-input').val(),
+		'pass': $('#password-input').val()
+	};
+}

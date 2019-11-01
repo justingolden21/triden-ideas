@@ -2,12 +2,15 @@
 <!-- <nav class="navbar fixed-top navbar-expand-lg" role="navigation"> -->
 	<a id="home-img" class="navbar-brand" href="{{ site.baseurl }}/index.html">
 		<img
-			src="{{ site.baseurl }}/assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-shield-white.png';"
-			width="50px"
+
+			src="{{ site.baseurl }}/assets/images/logo/logo-banner-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-shield-white.png';"
+			width="200px"
 
 		>
 	</a>
 
+
+<!-- 			src="{{ site.baseurl }}/assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-shield-white.png';" -->
 
 <!-- 
 		{% if page.active!='Home' %}
@@ -39,9 +42,9 @@
 			</li>
 			{% endif %} -->
 
-			{% if page.active!='Home'%}
+<!-- 			{% if page.active!='Home'%}
 				<b style="color:#fff">{{page.title}}</b>
-			{% endif %}
+			{% endif %} -->
 
 	<form id="search-form" class="form-inline ml-auto">
 		<div class="input-group">
@@ -123,7 +126,8 @@
 
 {% if page.title %}
 	<div class="jumbotron text-center">
-		<h1><img class="top-logo" src="{{ site.baseurl }}/assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-shield-white.png';">
-		<br><b> {{ page.title }} </b></h1>
+		<h1>
+			<!-- <img class="top-logo" src="{{ site.baseurl }}/assets/images/logo/logo-shield-white.svg" onerror="this.onerror=null;this.src='{{ site.baseurl }}/assets/images/logo/logo-shield-white.png';"> -->
+		<br><b> {{ page.title }} </b><br><br></h1>
 	</div>
 {% endif %}
