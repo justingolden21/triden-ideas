@@ -1,3 +1,12 @@
 .jumbotron {
 	background: #292929 url('../images/stock/security-mouse.jpg') no-repeat fixed center;
 }
+#main-section {
+	text-align: center;
+}
+#main-section p {
+	text-align: left;
+}
+.learn-more-btn {
+	margin-bottom: 15px;
+}
